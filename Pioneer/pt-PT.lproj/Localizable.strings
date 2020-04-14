@@ -1,0 +1,75 @@
+/*
+  Localizable.strings
+  Pioneer
+
+  Created by Mac on 17/9/13.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+
+//预览界面
+"摄像机"="Câmera";
+"连接"="接続";
+"正在录制事件..." = "Durante a gravação do evento";
+"拍摄事件失败"="A gravação do evento falhou";
+"拍摄照片失败" = "A captura de foto falhou";
+
+
+//文件列表
+"本地文件"="Dados Internos";
+"摄像机文件"="Dados do cartão SD do gravador de unidade";
+"视频"="Vídeo";
+"事件"="Evento";
+"泊车"="Estacionamento";
+"照片"="foto";
+"删除%d个文件？"="Apagar ficheiro?";
+"手机存储空间不足"="Limite de armazenamento móvel atingido";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="Dados de foto são descarregados para \"Fotos\". Aceder a fotos?";
+"下载" = "Download";
+"已下载" = "Download completo";
+
+//设置
+"录制时长"="Duração do clipe de vídeo";
+"1分钟"="1 minuto";
+"3分钟"="3 min";
+"5分钟"="5 min";
+"视频格式"="Resolução de vídeo";
+"时间同步"="Data e hora do link";
+"WiFi名称"="SSID";
+"WiFi密码"="Senha";
+"格式化SD卡"="Formatar cartão SD";
+"格式化SD卡详情"="Todos os dados serão apagados.Formatar o cartão SD? ";
+"恢复出厂设置"="Restaurar para as definições de fábrica";
+"恢复出厂设置详情"="Restaurar para as definições de fábrica (Sim / Não)";
+"软件信息"="Versão";
+"格式化SD卡成功"="Cartão SD formatado";
+"格式化SD卡失败"="Definições falharam";
+"格式化成功提示" = "No próximo arranque, a SSID e senha serão restauradas para as definições de fábrica.";
+"恢复出厂设置成功"="Restaurar para Definições de Fábrica";
+"恢复出厂设置失败"="Definições falharam";
+"设置成功"="Definições completas";
+"设置失败"="Definições falharam";
+"请输入1-11位Wi-Fi名称："="Digite até 11 caracteres alfanuméricos do SSID:";
+"请输入8位Wi-Fi密码："="Digite 8 caracteres alfanuméricos:";
+"说明书"="Como usar";
+"请连接WiFi"="Ligar à Wi-Fi";
+"初始值：88888888"="Valor inicial：88888888";
+"初始值：Pioneer_DVR"="Valor inicial：Pioneer_DVR";
+"未连接"="Não conectado";
+
+//其他
+"Done"="✕";
+"确定"="sim";
+"取消"="Cancelar";
+"文件码流过大，请下载到本地播放" = "Descarregar para iPhone e reproduzir";
+"修改WiFi成功提示" = "Reiniciar a unidade de gravação.";
+
+"开放源代码许可" = "Informação";
+"版本号" = "Versão da aplicação";
+"不同意" = "Discordo";
+"同意" = "Concordo";
+"开放源代码许可" = "Informação";
+"重新连接" = "Por favor ligue novamente à unidade de gravação.";
+"紧急录像中，请稍后再试" = "Durante a gravação do evento";
+"紧急录像中，无法设置" = "Durante a gravação do evento";
+"两台同时连接提示" = "Outro dispositivo conectou-se à unidade de gravação. Desconecte deste dispositivo.";
+"执行下载将停止录像" = "A gravação será interrompida enquanto descarrega o ficheiro. Tem a certeza?";

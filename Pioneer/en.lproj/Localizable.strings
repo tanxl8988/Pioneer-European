@@ -1,0 +1,75 @@
+/*
+ Localizable.strings
+ Pioneer
+ 
+ Created by Mac on 17/9/13.
+ Copyright © 2017年 APK. All rights reserved.
+ */
+
+//预览界面
+"摄像机"="Camera";
+"连接"="接続";
+"正在录制事件..." = "During event recording";
+"拍摄事件失败"="Event Recording Has Failed";
+"拍摄照片失败" = "Photo Capture Has Failed";
+
+
+//文件列表
+"本地文件"="Internal Data";
+"摄像机文件"="Drive Recorder SD Card Data";
+"视频"="Video";
+"事件"="Event";
+"泊车"="Parking";
+"照片"="Photo";
+"删除%d个文件？"="Delete file?";
+"手机存储空间不足"="Mobile storage limit reached";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="Photo data is downloaded to \" Photos \".Access photos? ";
+"下载" = "Download";
+"已下载" = "Download completed";
+
+//设置
+"录制时长"="Video Clip Length";
+"1分钟"="1 min";
+"3分钟"="3 min";
+"5分钟"="5 min";
+"视频格式"="Video Resolution";
+"时间同步"="Link Date and Time";
+"WiFi名称"="SSID";
+"WiFi密码"="Password";
+"格式化SD卡"="Format SD card";
+"格式化SD卡详情"="All Data will be Deleted.Format the SD card?";
+"恢复出厂设置"="Restore to Factory Mode";
+"恢复出厂设置详情"="Restore to Factory Default Mode (Yes/No)";
+"软件信息"="Version";
+"格式化SD卡成功"="SD card formatted";
+"格式化SD卡失败"="Setting failed";
+"格式化成功提示" = "After the next startup, the SSID and password will return to the factory default.";
+"恢复出厂设置成功"="Setting restores to factory Mode";
+"恢复出厂设置失败"="Setting failed";
+"设置成功"="Setting completed";
+"设置失败"="Setting failed";
+"请输入1-11位Wi-Fi名称："="Please Enter up to 11 Alphanumeric Characters of the SSID:";
+"请输入8位Wi-Fi密码："="Please Enter 8 Alphanumeric Characters:";
+"说明书"="How to use";
+"请连接WiFi"="Connect to Wi-Fi";
+"初始值：88888888"="Initial Password：88888888";
+"初始值：Pioneer_DVR"="Initial SSID：Pioneer_DVR";
+"未连接"="Not Connected";
+
+//其他
+"Done"="✕";
+"确定"="Yes";
+"取消"="Cancel";
+"文件码流过大，请下载到本地播放" = "Download to iPhone and play";
+"修改WiFi成功提示" = "Restart the drive recorder";
+
+"版本号" = "App version";
+"不同意" = "Disagree";
+"同意" = "Agree";
+"开放源代码许可" = "Information";
+"重新连接" = "Please reconnect the drive recorder.";
+"紧急录像中，请稍后再试" = "During event recording";
+"紧急录像中，无法设置" = "During event recording";
+"两台同时连接提示" = "Another device has connected to the drive recorder. Disconnect from this device.";
+
+"执行下载将停止录像" = "The recording will be stopped during the file download. Are you sure?";

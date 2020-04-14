@@ -1,0 +1,135 @@
+
+/* Class = "UILabel"; text = "EULA\n"; ObjectID = "0nQ-qJ-ogZ"; */
+"0nQ-qJ-ogZ.text" = "EULA\n";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "2vF-fU-VcW"; */
+"2vF-fU-VcW.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5IG-v0-amB"; */
+"5IG-v0-amB.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "5V8-RR-pSR"; */
+"5V8-RR-pSR.title" = "Item";
+
+/* Class = "UISegmentedControl"; Bg4-NV-Dvb.segmentTitles[0] = "1080P"; ObjectID = "Bg4-NV-Dvb"; */
+"Bg4-NV-Dvb.segmentTitles[0]" = "1080P";
+
+/* Class = "UISegmentedControl"; Bg4-NV-Dvb.segmentTitles[1] = "1080P HDR"; ObjectID = "Bg4-NV-Dvb"; */
+"Bg4-NV-Dvb.segmentTitles[1]" = "1080P HDR";
+
+/* Class = "UISegmentedControl"; Bg4-NV-Dvb.segmentTitles[2] = "720P"; ObjectID = "Bg4-NV-Dvb"; */
+"Bg4-NV-Dvb.segmentTitles[2]" = "720P";
+
+/* Class = "UISegmentedControl"; Bg4-NV-Dvb.segmentTitles[3] = "720P HDR"; ObjectID = "Bg4-NV-Dvb"; */
+"Bg4-NV-Dvb.segmentTitles[3]" = "720P HDR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D3j-hd-LVx"; */
+"D3j-hd-LVx.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "ドライブレコーダーインターフェース"; ObjectID = "EUB-vj-9Ru"; */
+"EUB-vj-9Ru.title" = "ドライブレコーダーインターフェース";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ekh-LT-WUu"; */
+"Ekh-LT-WUu.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "FKC-fD-9aR"; */
+"FKC-fD-9aR.title" = "Item 1";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "Ffx-2U-1Do"; */
+"Ffx-2U-1Do.text" = "00:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fr0-qy-YWT"; */
+"Fr0-qy-YWT.text" = "Label";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "GJy-Fr-Pnn"; */
+"GJy-Fr-Pnn.text" = "00:00";
+
+/* Class = "UISegmentedControl"; IvK-tz-9tf.segmentTitles[0] = "First"; ObjectID = "IvK-tz-9tf"; */
+"IvK-tz-9tf.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; IvK-tz-9tf.segmentTitles[1] = "Second"; ObjectID = "IvK-tz-9tf"; */
+"IvK-tz-9tf.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JT6-48-fbh"; */
+"JT6-48-fbh.text" = "Label";
+
+/* Class = "UILabel"; text = "开放源代码许可\n"; ObjectID = "LbU-EU-knx"; */
+"LbU-EU-knx.text" = "开放源代码许可\n";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Lkb-ud-Hls"; */
+"Lkb-ud-Hls.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "使い方"; ObjectID = "LpQ-wY-6xP"; */
+"LpQ-wY-6xP.normalTitle" = "使い方";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PJ7-sb-vAg"; */
+"PJ7-sb-vAg.text" = "Label";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Qlt-ME-V17"; */
+"Qlt-ME-V17.text" = "--";
+
+/* Class = "UILabel"; text = "版本号"; ObjectID = "Sgp-9L-z41"; */
+"Sgp-9L-z41.text" = "版本号";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "VzI-AL-KFn"; */
+"VzI-AL-KFn.text" = "--";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wxh-ig-d2M"; */
+"Wxh-ig-d2M.text" = "Label";
+
+/* Class = "UISegmentedControl"; Yrw-uc-0of.segmentTitles[0] = "First"; ObjectID = "Yrw-uc-0of"; */
+"Yrw-uc-0of.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; Yrw-uc-0of.segmentTitles[1] = "Second"; ObjectID = "Yrw-uc-0of"; */
+"Yrw-uc-0of.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bj9-SY-kbD"; */
+"bj9-SY-kbD.text" = "Label";
+
+/* Class = "UILabel"; text = "使い方\n"; ObjectID = "clc-Ke-qbF"; */
+"clc-Ke-qbF.text" = "使い方\n";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eRG-Cr-uHa"; */
+"eRG-Cr-uHa.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "f8c-nO-mRW"; */
+"f8c-nO-mRW.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "hMa-K6-Ciu"; */
+"hMa-K6-Ciu.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iHq-F7-WyI"; */
+"iHq-F7-WyI.text" = "Label";
+
+/* Class = "UILabel"; text = "v2.0"; ObjectID = "kDz-vf-bS4"; */
+"kDz-vf-bS4.text" = "v2.0";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ka2-as-3Ka"; */
+"ka2-as-3Ka.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "连接"; ObjectID = "lKh-Qd-YXc"; */
+"lKh-Qd-YXc.normalTitle" = "连接";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "pus-vZ-Xh1"; */
+"pus-vZ-Xh1.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qvQ-dR-Qkj"; */
+"qvQ-dR-Qkj.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rMW-G7-yzV"; */
+"rMW-G7-yzV.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Switch"; ObjectID = "sSS-Y8-4ud"; */
+"sSS-Y8-4ud.normalTitle" = "Switch";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uVC-P9-Yux"; */
+"uVC-P9-Yux.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "nihao"; ObjectID = "w0F-rr-L55"; */
+"w0F-rr-L55.title" = "nihao";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xm3-DA-oxU"; */
+"xm3-DA-oxU.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yQh-GG-2PQ"; */
+"yQh-GG-2PQ.text" = "Label";

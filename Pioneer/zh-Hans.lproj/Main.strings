@@ -1,0 +1,72 @@
+
+/* Class = "UILabel"; text = "--"; ObjectID = "3gB-3G-LVe"; */
+"3gB-3G-LVe.text" = "--";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "5V8-RR-pSR"; */
+"5V8-RR-pSR.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "FKC-fD-9aR"; */
+"FKC-fD-9aR.title" = "Item 1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GC5-90-fKv"; */
+"GC5-90-fKv.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GXe-aC-nuF"; */
+"GXe-aC-nuF.text" = "Label";
+
+/* Class = "UISegmentedControl"; IvK-tz-9tf.segmentTitles[0] = "First"; ObjectID = "IvK-tz-9tf"; */
+"IvK-tz-9tf.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; IvK-tz-9tf.segmentTitles[1] = "Second"; ObjectID = "IvK-tz-9tf"; */
+"IvK-tz-9tf.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KVs-fD-cmJ"; */
+"KVs-fD-cmJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Si7-a6-k7z"; */
+"Si7-a6-k7z.text" = "Label";
+
+/* Class = "UISegmentedControl"; SsX-55-b5T.segmentTitles[0] = "First"; ObjectID = "SsX-55-b5T"; */
+"SsX-55-b5T.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; SsX-55-b5T.segmentTitles[1] = "Second"; ObjectID = "SsX-55-b5T"; */
+"SsX-55-b5T.segmentTitles[1]" = "Second";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "VhW-F5-rP4"; */
+"VhW-F5-rP4.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bIk-Wg-O8M"; */
+"bIk-Wg-O8M.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d2H-64-HeT"; */
+"d2H-64-HeT.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iYh-cb-def"; */
+"iYh-cb-def.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kPl-iE-6TV"; */
+"kPl-iE-6TV.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nME-Ny-BAy"; */
+"nME-Ny-BAy.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "pus-vZ-Xh1"; */
+"pus-vZ-Xh1.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qt4-cW-GdZ"; */
+"qt4-cW-GdZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uVC-P9-Yux"; */
+"uVC-P9-Yux.text" = "Label";
+
+/* Class = "UISegmentedControl"; wxa-AB-wmk.segmentTitles[0] = "720P"; ObjectID = "wxa-AB-wmk"; */
+"wxa-AB-wmk.segmentTitles[0]" = "720P";
+
+/* Class = "UISegmentedControl"; wxa-AB-wmk.segmentTitles[1] = "960P"; ObjectID = "wxa-AB-wmk"; */
+"wxa-AB-wmk.segmentTitles[1]" = "960P";
+
+/* Class = "UISegmentedControl"; wxa-AB-wmk.segmentTitles[2] = "720P HDR"; ObjectID = "wxa-AB-wmk"; */
+"wxa-AB-wmk.segmentTitles[2]" = "720P HDR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yXC-Jt-Fnl"; */
+"yXC-Jt-Fnl.text" = "Label";

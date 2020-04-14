@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="APKPromiseView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBe-i3-S2A">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <button hidden="YES" opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA6-nQ-W5m">
+                    <rect key="frame" x="0.0" y="617" width="187" height="50"/>
+                    <color key="backgroundColor" red="0.71764705880000002" green="0.090196078430000007" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="不同意">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="refuseButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wt6-gS-7UD"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aa-v3-z6z">
+                    <rect key="frame" x="188" y="617" width="187" height="50"/>
+                    <color key="backgroundColor" red="0.71764705880000002" green="0.090196078430000007" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="同意">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="sureButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="nH2-hI-aGN"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EK0-Bb-RHy">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <color key="backgroundColor" red="0.71764705880000002" green="0.090196078430000007" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="不同意">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="refuseButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="kX8-dO-njf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OBe-i3-S2A" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6S0-Oz-fLa"/>
+                <constraint firstAttribute="bottom" secondItem="OBe-i3-S2A" secondAttribute="bottom" constant="49" id="7ud-pT-5e7"/>
+                <constraint firstItem="bA6-nQ-W5m" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9E0-xY-AyR"/>
+                <constraint firstAttribute="bottom" secondItem="8aa-v3-z6z" secondAttribute="bottom" id="9si-ps-Pdg"/>
+                <constraint firstItem="EK0-Bb-RHy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kx5-oD-7pn"/>
+                <constraint firstItem="OBe-i3-S2A" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LKC-ds-NI9"/>
+                <constraint firstAttribute="bottom" secondItem="EK0-Bb-RHy" secondAttribute="bottom" id="MAf-ie-kJN"/>
+                <constraint firstAttribute="bottom" secondItem="bA6-nQ-W5m" secondAttribute="bottom" id="Sne-Jk-9Pt"/>
+                <constraint firstItem="8aa-v3-z6z" firstAttribute="top" secondItem="OBe-i3-S2A" secondAttribute="bottom" constant="-1" id="UxU-cC-iVr"/>
+                <constraint firstItem="8aa-v3-z6z" firstAttribute="leading" secondItem="bA6-nQ-W5m" secondAttribute="trailing" constant="1" id="Y60-yQ-4JH"/>
+                <constraint firstAttribute="trailing" secondItem="OBe-i3-S2A" secondAttribute="trailing" id="Y8g-U7-pXz"/>
+                <constraint firstAttribute="trailing" secondItem="8aa-v3-z6z" secondAttribute="trailing" id="cjq-el-DTE"/>
+                <constraint firstAttribute="trailing" secondItem="EK0-Bb-RHy" secondAttribute="trailing" id="dVR-XZ-zke"/>
+                <constraint firstItem="bA6-nQ-W5m" firstAttribute="top" secondItem="OBe-i3-S2A" secondAttribute="bottom" constant="-1" id="j9x-p2-Ddf"/>
+                <constraint firstItem="EK0-Bb-RHy" firstAttribute="top" secondItem="OBe-i3-S2A" secondAttribute="bottom" constant="-1" id="lar-tn-4N4"/>
+                <constraint firstItem="bA6-nQ-W5m" firstAttribute="width" secondItem="8aa-v3-z6z" secondAttribute="width" id="zzO-IC-gh7"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="refuseButton" destination="bA6-nQ-W5m" id="HPr-bK-XXL"/>
+                <outlet property="setSureButton" destination="EK0-Bb-RHy" id="f8J-cd-rQ9"/>
+                <outlet property="sureButton" destination="8aa-v3-z6z" id="kpQ-1f-kVx"/>
+                <outlet property="webView" destination="OBe-i3-S2A" id="FCD-EX-IDB"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>

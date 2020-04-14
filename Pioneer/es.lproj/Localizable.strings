@@ -1,0 +1,74 @@
+/*
+ Localizable.strings
+ Pioneer
+ 
+ Created by Mac on 17/9/13.
+ Copyright © 2017年 APK. All rights reserved.
+ */
+
+//预览界面
+"摄像机"="Cámara";
+"连接"="接続";
+"正在录制事件..." = "Durante Grabación Evento";
+"拍摄事件失败"="La grabación del eventos ha fallado";
+"拍摄照片失败" = "La captura de fotos ha fallado";
+
+
+//文件列表
+"本地文件"="Datos internos";
+"摄像机文件"="Datos de la tarjeta SD del grabador de unidad";
+"视频"="Video";
+"事件"="Evento";
+"泊车"="Estacionamiento";
+"照片"="Foto";
+"删除%d个文件？"="Borrar Fichero";
+"手机存储空间不足"="Limite de almacenamiento móvil alcanzado";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="Datos Foto se ha descargado en \"Fotos\".Acceder a fotos?";
+"下载" = "Descargar";
+"已下载" = "Descarga completa";
+
+//设置
+"录制时长"="Longitud del videoclip";
+"1分钟"="1 minuto";
+"3分钟"="3 min";
+"5分钟"="5 minutos";
+"视频格式"="Resolución de video";
+"时间同步"="Fecha y hora del enlace";
+"WiFi名称"="SSID";
+"WiFi密码"="Contraseña";
+"格式化SD卡"="Formatear tarjeta SD";
+"格式化SD卡详情"="Todos los datos serán eliminados.Formatear la tarjeta SD?";
+"恢复出厂设置"="Restaurar al modo de fábrica";
+"恢复出厂设置详情"="Restaurar al modo predeterminado de fábrica (Sí / No)";
+"软件信息"="Versión";
+"格式化SD卡成功"="Tarjeta SD formateada";
+"格式化SD卡失败"="Configuración faliida";
+"格式化成功提示" = "Después del próximo inicio, el SSID y la contraseña volverán a los valores predeterminados de fábrica.";
+"恢复出厂设置成功"="Configuracion para restaurar al Modo Fabrica";
+"恢复出厂设置失败"="Configuración faliida";
+"设置成功"="Configuración completa";
+"设置失败"="Configuración faliida";
+"请输入1-11位Wi-Fi名称："="Introduzca hasta 11 caracteres alfanuméricos del SSID:";
+"请输入8位Wi-Fi密码："="Por favor, introduzca 8 caracteres alfanuméricos";
+"说明书"="Cómo utilizar";
+"请连接WiFi"="Conectar a Wi-Fi";
+"初始值：88888888"="Contraseña inicial：88888888";
+"初始值：Pioneer_DVR"="SSID inicial：Pioneer_DVR";
+"未连接"="No conectado";
+
+//其他
+"Done"="✕";
+"确定"="si";
+"取消"="Cancelar";
+"文件码流过大，请下载到本地播放" = "Descarga al iPhone y reproduzca。";
+"修改WiFi成功提示" = "Reiniciar la grabadora de disco";
+
+"版本号" = "Version App";
+"不同意" = "No Aceptar";
+"同意" = "Aceptar";
+"开放源代码许可" = "Información";
+"重新连接" = "Vuelva a conectar la grabadora";
+"紧急录像中，请稍后再试" = "Durante Grabación Evento";
+"紧急录像中，无法设置" = "Durante Grabación Evento";
+"两台同时连接提示" = "Otro dispositivo se ha conectado a la grabadora. Desconectarse de este dispositivo.";
+"执行下载将停止录像" = "La grabación se parará durante la descarga del fichero. ¿Esta seguro?";

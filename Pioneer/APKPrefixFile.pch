@@ -1,0 +1,27 @@
+//
+//  APKPrefixFile.pch
+//  东风项目
+//
+//  Created by Mac on 16/5/25.
+//  Copyright © 2016年 APK. All rights reserved.
+//
+
+#ifndef APKPrefixFile_pch
+#define APKPrefixFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 在release版本禁止输出NSLog内容
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+#define debugMethod()
+#endif
+
+#define KWifiInfoDic @"wifiInfoDic"
+#define KWifiName @"wifiName"
+#define KWifiPassword @"wifiPassword"
+#endif /* APKPrefixFile_pch */

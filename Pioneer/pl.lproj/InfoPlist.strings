@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Pioneer
+
+  Created by Mac on 17/9/30.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+NSPhotoLibraryUsageDescription = "Zobaczyć/ usunąć/ zapisać/ udostępnić nagrane filmy";
+"CFBundleDisplayName" = "Interface";

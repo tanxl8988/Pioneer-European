@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0430DA921F6BC3C0008058A2 /* APKDVRMessageDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0430DA911F6BC3C0008058A2 /* APKDVRMessageDataHandler.m */; };
+		04407FAB1F67CF6700BE177F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FAA1F67CF6700BE177F /* main.m */; };
+		04407FAE1F67CF6700BE177F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FAD1F67CF6700BE177F /* AppDelegate.m */; };
+		04407FB61F67CF6700BE177F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04407FB51F67CF6700BE177F /* Assets.xcassets */; };
+		04407FCA1F67CFD000BE177F /* APKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FC31F67CFD000BE177F /* APKBaseNavigationController.m */; };
+		04407FCB1F67CFD000BE177F /* APKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FC51F67CFD000BE177F /* APKBaseTabBarController.m */; };
+		04407FCC1F67CFD000BE177F /* APKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FC71F67CFD000BE177F /* APKBaseTableViewController.m */; };
+		04407FCD1F67CFD000BE177F /* APKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FC91F67CFD000BE177F /* APKBaseViewController.m */; };
+		04407FD11F67D26800BE177F /* APKPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FD01F67D26800BE177F /* APKPreviewViewController.m */; };
+		04407FD51F67D30400BE177F /* APKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FD41F67D30400BE177F /* APKTabBar.m */; };
+		04407FD71F67D31200BE177F /* APKTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04407FD61F67D31200BE177F /* APKTabBar.xib */; };
+		04407FDA1F67D36700BE177F /* APKTabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FD91F67D36700BE177F /* APKTabBarCell.m */; };
+		04407FDC1F67D37A00BE177F /* APKTabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04407FDB1F67D37A00BE177F /* APKTabBarCell.xib */; };
+		04407FDF1F67D54400BE177F /* APKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FDE1F67D54400BE177F /* APKTabBarController.m */; };
+		04407FE31F67DE5E00BE177F /* APKFlodersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FE21F67DE5E00BE177F /* APKFlodersView.m */; };
+		04407FE51F67DE8A00BE177F /* APKFlodersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04407FE41F67DE8A00BE177F /* APKFlodersView.xib */; };
+		04407FED1F67E2A100BE177F /* APKFlodersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04407FEC1F67E2A100BE177F /* APKFlodersViewController.m */; };
+		046CA8A21F70F45700771698 /* APKAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CA8A11F70F45700771698 /* APKAlertTool.m */; };
+		046CA8A61F70FB4300771698 /* APKGetSettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CA8A51F70FB4300771698 /* APKGetSettingInfo.m */; };
+		047AEF1B1F735A2C004B5609 /* APKInitializeConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 047AEF1A1F735A2C004B5609 /* APKInitializeConnect.m */; };
+		047C603B1F7CA1230084D76B /* CooAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C603A1F7CA1230084D76B /* CooAVPlayer.m */; };
+		047C603E1F7CC8900084D76B /* APKPlayBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C603D1F7CC8900084D76B /* APKPlayBackViewController.m */; };
+		047C60411F7CC8A40084D76B /* APKVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C60401F7CC8A40084D76B /* APKVideoPlayerController.m */; };
+		04911FCF1F68DE1100FD6121 /* APKFloderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04911FCE1F68DE1100FD6121 /* APKFloderButton.m */; };
+		04911FF81F691A0100FD6121 /* APKLocalFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04911FF71F691A0100FD6121 /* APKLocalFilesViewController.m */; };
+		04911FFB1F691A1000FD6121 /* APKDVRFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04911FFA1F691A1000FD6121 /* APKDVRFilesViewController.m */; };
+		04911FFE1F691BA900FD6121 /* APKFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04911FFD1F691BA900FD6121 /* APKFileCell.m */; };
+		049120011F69294300FD6121 /* APKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049120001F69294300FD6121 /* APKSettingsViewController.m */; };
+		049120041F69334C00FD6121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049120021F69334C00FD6121 /* Main.storyboard */; };
+		049120081F6934F100FD6121 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0491200A1F6934F100FD6121 /* Localizable.strings */; };
+		049C8AFC1F6BB4E70024E703 /* APKDVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C8AFB1F6BB4E70024E703 /* APKDVR.m */; };
+		04A04BBE1F6A2AAB00612C37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */; };
+		04A04BC21F6A321800612C37 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A04BC11F6A321800612C37 /* libbz2.tbd */; };
+		04A04BC41F6A322800612C37 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A04BC31F6A322800612C37 /* libiconv.tbd */; };
+		04A04BC91F6A594D00612C37 /* APKLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A04BC81F6A594D00612C37 /* APKLiveViewController.m */; };
+		04A6A75A1F78A04D00ABD7E8 /* APKDVRFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7591F78A04D00ABD7E8 /* APKDVRFile.m */; };
+		04A6A75D1F78E54F00ABD7E8 /* APKBatchDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A75C1F78E54F00ABD7E8 /* APKBatchDelete.m */; };
+		04A6A7621F78F5F500ABD7E8 /* APKCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7611F78F5F500ABD7E8 /* APKCoreDataStack.m */; };
+		04A6A7651F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7631F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld */; };
+		04A6A7681F79023E00ABD7E8 /* APKLocalFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */; };
+		04A6A76B1F7908F800ABD7E8 /* APKBatchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */; };
+		04AD3AEB1F79E2D100B27E41 /* APKPhotosKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */; };
+		04AD3AEF1F79EE0A00B27E41 /* APKDownloadInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AED1F79EE0A00B27E41 /* APKDownloadInfoView.m */; };
+		04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3AEE1F79EE0A00B27E41 /* APKDownloadInfoView.xib */; };
+		04AD3AF41F7A463000B27E41 /* APKCachingAssetThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AF31F7A463000B27E41 /* APKCachingAssetThumbnail.m */; };
+		04AD3AF71F7A466E00B27E41 /* APKLoadShareItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AF61F7A466E00B27E41 /* APKLoadShareItems.m */; };
+		04AD3AFA1F7A4D0D00B27E41 /* APKMWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AF91F7A4D0D00B27E41 /* APKMWPhoto.m */; };
+		04C016B31F7F376200018AF6 /* APKSettingsContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C016B21F7F376200018AF6 /* APKSettingsContentController.m */; };
+		04C016B61F7F88E800018AF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04C016B81F7F88E800018AF6 /* InfoPlist.strings */; };
+		04C06DDB1F6F695D0072D064 /* APKDVRCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C06DDA1F6F695D0072D064 /* APKDVRCommand.m */; };
+		04C06DDE1F6F6E760072D064 /* APKDVRCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C06DDD1F6F6E760072D064 /* APKDVRCommandFactory.m */; };
+		04C06DE51F6F74F50072D064 /* APKDVRCommandResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */; };
+		04C1C2811F74BBDD0006B9C8 /* APKGetDVRFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */; };
+		04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */; };
+		1C1CAD4B2091A933002DAAC6 /* APKPrecificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CAD4A2091A933002DAAC6 /* APKPrecificationViewController.m */; };
+		385F631B20EA171A00F12DBE /* APKWifiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 385F631A20EA171900F12DBE /* APKWifiTool.m */; };
+		66FAA837394111AE8E6724D2 /* libPods-Pioneer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */; };
+		D602DB5C22BB22C900E92437 /* APKPromiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D602DB5B22BB22C900E92437 /* APKPromiseView.m */; };
+		D602DB5E22BB22DE00E92437 /* APKPromiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D602DB5D22BB22DE00E92437 /* APKPromiseView.xib */; };
+		D603B2CE215B28C000A5EFC0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D603B2CD215B28C000A5EFC0 /* libc++.tbd */; };
+		D62D632122C0B49000DDA034 /* license-jp_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D62D632022C0B49000DDA034 /* license-jp_ios.pdf */; };
+		D64F8EF922CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx in Resources */ = {isa = PBXBuildFile; fileRef = D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */; };
+		D67216FF22BCA507005D550D /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67216FE22BCA507005D550D /* QuickLook.framework */; };
+		D678AA7622A8A94C00794CFF /* openSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D678AA7522A8A94C00794CFF /* openSourceViewController.m */; };
+		D67F6EAF2424B5090082A228 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67F6EAE2424B5090082A228 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0420B1892436CAA300502510 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		0420B18A2436CAA400502510 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0420B18B2436CAA400502510 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0420B18C2436D1A300502510 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		0420B18D2436D1A300502510 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0420B18E2436D1A300502510 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0420B18F2436D6DE00502510 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		0420B1902436D6DE00502510 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0420B1912436D6DE00502510 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0420B192243718AC00502510 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Main.strings"; sourceTree = "<group>"; };
+		0420B193243718AC00502510 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0420B194243718AC00502510 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0430DA901F6BC3C0008058A2 /* APKDVRMessageDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRMessageDataHandler.h; sourceTree = "<group>"; };
+		0430DA911F6BC3C0008058A2 /* APKDVRMessageDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRMessageDataHandler.m; sourceTree = "<group>"; };
+		04407FA61F67CF6700BE177F /* Dash Camera Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dash Camera Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04407FAA1F67CF6700BE177F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04407FAC1F67CF6700BE177F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04407FAD1F67CF6700BE177F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04407FB51F67CF6700BE177F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04407FBA1F67CF6700BE177F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04407FC21F67CFD000BE177F /* APKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseNavigationController.h; sourceTree = "<group>"; };
+		04407FC31F67CFD000BE177F /* APKBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseNavigationController.m; sourceTree = "<group>"; };
+		04407FC41F67CFD000BE177F /* APKBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseTabBarController.h; sourceTree = "<group>"; };
+		04407FC51F67CFD000BE177F /* APKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseTabBarController.m; sourceTree = "<group>"; };
+		04407FC61F67CFD000BE177F /* APKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseTableViewController.h; sourceTree = "<group>"; };
+		04407FC71F67CFD000BE177F /* APKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseTableViewController.m; sourceTree = "<group>"; };
+		04407FC81F67CFD000BE177F /* APKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseViewController.h; sourceTree = "<group>"; };
+		04407FC91F67CFD000BE177F /* APKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseViewController.m; sourceTree = "<group>"; };
+		04407FCE1F67D17400BE177F /* APKPrefixFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPrefixFile.pch; sourceTree = "<group>"; };
+		04407FCF1F67D26800BE177F /* APKPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPreviewViewController.h; sourceTree = "<group>"; };
+		04407FD01F67D26800BE177F /* APKPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPreviewViewController.m; sourceTree = "<group>"; };
+		04407FD31F67D30400BE177F /* APKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKTabBar.h; sourceTree = "<group>"; };
+		04407FD41F67D30400BE177F /* APKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKTabBar.m; sourceTree = "<group>"; };
+		04407FD61F67D31200BE177F /* APKTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APKTabBar.xib; sourceTree = "<group>"; };
+		04407FD81F67D36700BE177F /* APKTabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKTabBarCell.h; sourceTree = "<group>"; };
+		04407FD91F67D36700BE177F /* APKTabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKTabBarCell.m; sourceTree = "<group>"; };
+		04407FDB1F67D37A00BE177F /* APKTabBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APKTabBarCell.xib; sourceTree = "<group>"; };
+		04407FDD1F67D54400BE177F /* APKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKTabBarController.h; sourceTree = "<group>"; };
+		04407FDE1F67D54400BE177F /* APKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKTabBarController.m; sourceTree = "<group>"; };
+		04407FE11F67DE5E00BE177F /* APKFlodersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKFlodersView.h; sourceTree = "<group>"; };
+		04407FE21F67DE5E00BE177F /* APKFlodersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKFlodersView.m; sourceTree = "<group>"; };
+		04407FE41F67DE8A00BE177F /* APKFlodersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APKFlodersView.xib; sourceTree = "<group>"; };
+		04407FEB1F67E2A100BE177F /* APKFlodersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKFlodersViewController.h; sourceTree = "<group>"; };
+		04407FEC1F67E2A100BE177F /* APKFlodersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKFlodersViewController.m; sourceTree = "<group>"; };
+		046CA8A01F70F45700771698 /* APKAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKAlertTool.h; sourceTree = "<group>"; };
+		046CA8A11F70F45700771698 /* APKAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKAlertTool.m; sourceTree = "<group>"; };
+		046CA8A41F70FB4300771698 /* APKGetSettingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetSettingInfo.h; sourceTree = "<group>"; };
+		046CA8A51F70FB4300771698 /* APKGetSettingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetSettingInfo.m; sourceTree = "<group>"; };
+		047AEF191F735A2C004B5609 /* APKInitializeConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKInitializeConnect.h; sourceTree = "<group>"; };
+		047AEF1A1F735A2C004B5609 /* APKInitializeConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKInitializeConnect.m; sourceTree = "<group>"; };
+		047C60391F7CA1230084D76B /* CooAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CooAVPlayer.h; sourceTree = "<group>"; };
+		047C603A1F7CA1230084D76B /* CooAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CooAVPlayer.m; sourceTree = "<group>"; };
+		047C603C1F7CC8900084D76B /* APKPlayBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPlayBackViewController.h; sourceTree = "<group>"; };
+		047C603D1F7CC8900084D76B /* APKPlayBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPlayBackViewController.m; sourceTree = "<group>"; };
+		047C603F1F7CC8A40084D76B /* APKVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKVideoPlayerController.h; sourceTree = "<group>"; };
+		047C60401F7CC8A40084D76B /* APKVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKVideoPlayerController.m; sourceTree = "<group>"; };
+		04911FCD1F68DE1100FD6121 /* APKFloderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKFloderButton.h; sourceTree = "<group>"; };
+		04911FCE1F68DE1100FD6121 /* APKFloderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKFloderButton.m; sourceTree = "<group>"; };
+		04911FF61F691A0100FD6121 /* APKLocalFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLocalFilesViewController.h; sourceTree = "<group>"; };
+		04911FF71F691A0100FD6121 /* APKLocalFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFilesViewController.m; sourceTree = "<group>"; };
+		04911FF91F691A1000FD6121 /* APKDVRFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFilesViewController.h; sourceTree = "<group>"; };
+		04911FFA1F691A1000FD6121 /* APKDVRFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFilesViewController.m; sourceTree = "<group>"; };
+		04911FFC1F691BA900FD6121 /* APKFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKFileCell.h; sourceTree = "<group>"; };
+		04911FFD1F691BA900FD6121 /* APKFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKFileCell.m; sourceTree = "<group>"; };
+		04911FFF1F69294300FD6121 /* APKSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKSettingsViewController.h; sourceTree = "<group>"; };
+		049120001F69294300FD6121 /* APKSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKSettingsViewController.m; sourceTree = "<group>"; };
+		049120031F69334C00FD6121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049120051F6934C000FD6121 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		049120091F6934F100FD6121 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0491200B1F6937A400FD6121 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		0491200C1F6937A400FD6121 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0491200D1F6937BC00FD6121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		049C8AFA1F6BB4E70024E703 /* APKDVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVR.h; sourceTree = "<group>"; };
+		049C8AFB1F6BB4E70024E703 /* APKDVR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVR.m; sourceTree = "<group>"; };
+		04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04A04BC11F6A321800612C37 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		04A04BC31F6A322800612C37 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		04A04BC71F6A594D00612C37 /* APKLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLiveViewController.h; sourceTree = "<group>"; };
+		04A04BC81F6A594D00612C37 /* APKLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLiveViewController.m; sourceTree = "<group>"; };
+		04A6A7581F78A04D00ABD7E8 /* APKDVRFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFile.h; sourceTree = "<group>"; };
+		04A6A7591F78A04D00ABD7E8 /* APKDVRFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFile.m; sourceTree = "<group>"; };
+		04A6A75B1F78E54F00ABD7E8 /* APKBatchDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDelete.h; sourceTree = "<group>"; };
+		04A6A75C1F78E54F00ABD7E8 /* APKBatchDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDelete.m; sourceTree = "<group>"; };
+		04A6A7601F78F5F500ABD7E8 /* APKCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCoreDataStack.h; sourceTree = "<group>"; };
+		04A6A7611F78F5F500ABD7E8 /* APKCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCoreDataStack.m; sourceTree = "<group>"; };
+		04A6A7641F78F7A100ABD7E8 /* PioneerModal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PioneerModal.xcdatamodel; sourceTree = "<group>"; };
+		04A6A7661F79023E00ABD7E8 /* APKLocalFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLocalFile.h; sourceTree = "<group>"; };
+		04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFile.m; sourceTree = "<group>"; };
+		04A6A7691F7908F800ABD7E8 /* APKBatchDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDownload.h; sourceTree = "<group>"; };
+		04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDownload.m; sourceTree = "<group>"; };
+		04AD3AE91F79E2D100B27E41 /* APKPhotosKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPhotosKit.h; sourceTree = "<group>"; };
+		04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPhotosKit.m; sourceTree = "<group>"; };
+		04AD3AEC1F79EE0A00B27E41 /* APKDownloadInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDownloadInfoView.h; sourceTree = "<group>"; };
+		04AD3AED1F79EE0A00B27E41 /* APKDownloadInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDownloadInfoView.m; sourceTree = "<group>"; };
+		04AD3AEE1F79EE0A00B27E41 /* APKDownloadInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APKDownloadInfoView.xib; sourceTree = "<group>"; };
+		04AD3AF21F7A463000B27E41 /* APKCachingAssetThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCachingAssetThumbnail.h; sourceTree = "<group>"; };
+		04AD3AF31F7A463000B27E41 /* APKCachingAssetThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCachingAssetThumbnail.m; sourceTree = "<group>"; };
+		04AD3AF51F7A466E00B27E41 /* APKLoadShareItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLoadShareItems.h; sourceTree = "<group>"; };
+		04AD3AF61F7A466E00B27E41 /* APKLoadShareItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLoadShareItems.m; sourceTree = "<group>"; };
+		04AD3AF81F7A4D0D00B27E41 /* APKMWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKMWPhoto.h; sourceTree = "<group>"; };
+		04AD3AF91F7A4D0D00B27E41 /* APKMWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKMWPhoto.m; sourceTree = "<group>"; };
+		04C016B11F7F376200018AF6 /* APKSettingsContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKSettingsContentController.h; sourceTree = "<group>"; };
+		04C016B21F7F376200018AF6 /* APKSettingsContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKSettingsContentController.m; sourceTree = "<group>"; };
+		04C016B71F7F88E800018AF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C016B91F7F88EA00018AF6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04C016BA1F7F88EA00018AF6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04C06DD91F6F695D0072D064 /* APKDVRCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommand.h; sourceTree = "<group>"; };
+		04C06DDA1F6F695D0072D064 /* APKDVRCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommand.m; sourceTree = "<group>"; };
+		04C06DDC1F6F6E760072D064 /* APKDVRCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommandFactory.h; sourceTree = "<group>"; };
+		04C06DDD1F6F6E760072D064 /* APKDVRCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommandFactory.m; sourceTree = "<group>"; };
+		04C06DDF1F6F6F530072D064 /* APKDVRInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APKDVRInterface.h; sourceTree = "<group>"; };
+		04C06DE31F6F74F50072D064 /* APKDVRCommandResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommandResultHandler.h; sourceTree = "<group>"; };
+		04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommandResultHandler.m; sourceTree = "<group>"; };
+		04C1C27F1F74BBDD0006B9C8 /* APKGetDVRFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRFiles.h; sourceTree = "<group>"; };
+		04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRFiles.m; sourceTree = "<group>"; };
+		04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		1C1CAD492091A933002DAAC6 /* APKPrecificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APKPrecificationViewController.h; sourceTree = "<group>"; };
+		1C1CAD4A2091A933002DAAC6 /* APKPrecificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APKPrecificationViewController.m; sourceTree = "<group>"; };
+		385F631920EA171900F12DBE /* APKWifiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKWifiTool.h; sourceTree = "<group>"; };
+		385F631A20EA171900F12DBE /* APKWifiTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKWifiTool.m; sourceTree = "<group>"; };
+		385F631C20EA1A8900F12DBE /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		5DFA522AAAA5347A29A3D623 /* Pods-Pioneer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pioneer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pioneer/Pods-Pioneer.release.xcconfig"; sourceTree = "<group>"; };
+		96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pioneer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D602DB5A22BB22C900E92437 /* APKPromiseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APKPromiseView.h; sourceTree = "<group>"; };
+		D602DB5B22BB22C900E92437 /* APKPromiseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APKPromiseView.m; sourceTree = "<group>"; };
+		D602DB5D22BB22DE00E92437 /* APKPromiseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = APKPromiseView.xib; sourceTree = "<group>"; };
+		D603B2CD215B28C000A5EFC0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D603B2D1215B689200A5EFC0 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "../../lib 2/libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		D62D632022C0B49000DDA034 /* license-jp_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "license-jp_ios.pdf"; sourceTree = "<group>"; };
+		D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "使用許諾書_Drive_Record_Interface_正式版 2.docx"; sourceTree = "<group>"; };
+		D67216FE22BCA507005D550D /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		D672854622F2C3A20008B533 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D672854722F2C3A20008B533 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D672854822F2C3A30008B533 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D678AA7422A8A94C00794CFF /* openSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openSourceViewController.h; sourceTree = "<group>"; };
+		D678AA7522A8A94C00794CFF /* openSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openSourceViewController.m; sourceTree = "<group>"; };
+		D67F6EAE2424B5090082A228 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D68B6D7D240CAC2700913075 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		D68B6D7E240CAC2700913075 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D68B6D7F240CAC2700913075 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D68B6D80240CD85D00913075 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		D68B6D81240CD85D00913075 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D68B6D82240CD85D00913075 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D68B6D83240CDB8800913075 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		D68B6D84240CDB8800913075 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D68B6D85240CDB8800913075 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D68B6D86240CDFAA00913075 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		D68B6D87240CDFAA00913075 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D68B6D88240CDFAA00913075 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E948FDA2020B4AC5CB6E06B1 /* Pods-Pioneer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pioneer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pioneer/Pods-Pioneer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04407FA31F67CF6700BE177F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67216FF22BCA507005D550D /* QuickLook.framework in Frameworks */,
+				D603B2CE215B28C000A5EFC0 /* libc++.tbd in Frameworks */,
+				04A04BC41F6A322800612C37 /* libiconv.tbd in Frameworks */,
+				04A04BC21F6A321800612C37 /* libbz2.tbd in Frameworks */,
+				04A04BBE1F6A2AAB00612C37 /* AudioToolbox.framework in Frameworks */,
+				66FAA837394111AE8E6724D2 /* libPods-Pioneer.a in Frameworks */,
+				04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04407F9D1F67CF6700BE177F = {
+			isa = PBXGroup;
+			children = (
+				04407FA81F67CF6700BE177F /* Pioneer */,
+				04407FA71F67CF6700BE177F /* Products */,
+				04A04BBC1F6A2AAB00612C37 /* Frameworks */,
+				F9BA2235EC8086A82C9C7431 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04407FA71F67CF6700BE177F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04407FA61F67CF6700BE177F /* Dash Camera Interface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04407FA81F67CF6700BE177F /* Pioneer */ = {
+			isa = PBXGroup;
+			children = (
+				049C8AF91F6BB4AD0024E703 /* Modal */,
+				04407FD21F67D27300BE177F /* View */,
+				04407FC01F67CFBF00BE177F /* Controller */,
+				04407FA91F67CF6700BE177F /* Supporting Files */,
+			);
+			path = Pioneer;
+			sourceTree = "<group>";
+		};
+		04407FA91F67CF6700BE177F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04407FAC1F67CF6700BE177F /* AppDelegate.h */,
+				04407FAD1F67CF6700BE177F /* AppDelegate.m */,
+				04407FCE1F67D17400BE177F /* APKPrefixFile.pch */,
+				04407FB51F67CF6700BE177F /* Assets.xcassets */,
+				D62D632022C0B49000DDA034 /* license-jp_ios.pdf */,
+				D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */,
+				04407FBA1F67CF6700BE177F /* Info.plist */,
+				04407FAA1F67CF6700BE177F /* main.m */,
+				04C016B81F7F88E800018AF6 /* InfoPlist.strings */,
+				0491200A1F6934F100FD6121 /* Localizable.strings */,
+				D67F6EAE2424B5090082A228 /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04407FC01F67CFBF00BE177F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				049120021F69334C00FD6121 /* Main.storyboard */,
+				04407FCF1F67D26800BE177F /* APKPreviewViewController.h */,
+				04407FD01F67D26800BE177F /* APKPreviewViewController.m */,
+				04407FEB1F67E2A100BE177F /* APKFlodersViewController.h */,
+				04407FEC1F67E2A100BE177F /* APKFlodersViewController.m */,
+				04911FF61F691A0100FD6121 /* APKLocalFilesViewController.h */,
+				04911FF71F691A0100FD6121 /* APKLocalFilesViewController.m */,
+				04911FF91F691A1000FD6121 /* APKDVRFilesViewController.h */,
+				04911FFA1F691A1000FD6121 /* APKDVRFilesViewController.m */,
+				04911FFF1F69294300FD6121 /* APKSettingsViewController.h */,
+				049120001F69294300FD6121 /* APKSettingsViewController.m */,
+				04C016B11F7F376200018AF6 /* APKSettingsContentController.h */,
+				04C016B21F7F376200018AF6 /* APKSettingsContentController.m */,
+				047C603C1F7CC8900084D76B /* APKPlayBackViewController.h */,
+				047C603D1F7CC8900084D76B /* APKPlayBackViewController.m */,
+				047C603F1F7CC8A40084D76B /* APKVideoPlayerController.h */,
+				047C60401F7CC8A40084D76B /* APKVideoPlayerController.m */,
+				04A04BC71F6A594D00612C37 /* APKLiveViewController.h */,
+				04A04BC81F6A594D00612C37 /* APKLiveViewController.m */,
+				1C1CAD492091A933002DAAC6 /* APKPrecificationViewController.h */,
+				1C1CAD4A2091A933002DAAC6 /* APKPrecificationViewController.m */,
+				D678AA7422A8A94C00794CFF /* openSourceViewController.h */,
+				D678AA7522A8A94C00794CFF /* openSourceViewController.m */,
+				04407FC11F67CFC600BE177F /* base */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04407FC11F67CFC600BE177F /* base */ = {
+			isa = PBXGroup;
+			children = (
+				04407FC21F67CFD000BE177F /* APKBaseNavigationController.h */,
+				04407FC31F67CFD000BE177F /* APKBaseNavigationController.m */,
+				04407FC41F67CFD000BE177F /* APKBaseTabBarController.h */,
+				04407FC51F67CFD000BE177F /* APKBaseTabBarController.m */,
+				04407FC61F67CFD000BE177F /* APKBaseTableViewController.h */,
+				04407FC71F67CFD000BE177F /* APKBaseTableViewController.m */,
+				04407FC81F67CFD000BE177F /* APKBaseViewController.h */,
+				04407FC91F67CFD000BE177F /* APKBaseViewController.m */,
+				04407FDD1F67D54400BE177F /* APKTabBarController.h */,
+				04407FDE1F67D54400BE177F /* APKTabBarController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		04407FD21F67D27300BE177F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AD3AEC1F79EE0A00B27E41 /* APKDownloadInfoView.h */,
+				04AD3AED1F79EE0A00B27E41 /* APKDownloadInfoView.m */,
+				04AD3AEE1F79EE0A00B27E41 /* APKDownloadInfoView.xib */,
+				04911FFC1F691BA900FD6121 /* APKFileCell.h */,
+				04911FFD1F691BA900FD6121 /* APKFileCell.m */,
+				046CA8A01F70F45700771698 /* APKAlertTool.h */,
+				046CA8A11F70F45700771698 /* APKAlertTool.m */,
+				D602DB5A22BB22C900E92437 /* APKPromiseView.h */,
+				D602DB5B22BB22C900E92437 /* APKPromiseView.m */,
+				D602DB5D22BB22DE00E92437 /* APKPromiseView.xib */,
+				04407FEE1F67EA0100BE177F /* APKFlodersView */,
+				04407FE01F67DA9700BE177F /* APKTabBar */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04407FE01F67DA9700BE177F /* APKTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				04407FD31F67D30400BE177F /* APKTabBar.h */,
+				04407FD41F67D30400BE177F /* APKTabBar.m */,
+				04407FD61F67D31200BE177F /* APKTabBar.xib */,
+				04407FD81F67D36700BE177F /* APKTabBarCell.h */,
+				04407FD91F67D36700BE177F /* APKTabBarCell.m */,
+				04407FDB1F67D37A00BE177F /* APKTabBarCell.xib */,
+			);
+			name = APKTabBar;
+			sourceTree = "<group>";
+		};
+		04407FEE1F67EA0100BE177F /* APKFlodersView */ = {
+			isa = PBXGroup;
+			children = (
+				04407FE11F67DE5E00BE177F /* APKFlodersView.h */,
+				04407FE21F67DE5E00BE177F /* APKFlodersView.m */,
+				04407FE41F67DE8A00BE177F /* APKFlodersView.xib */,
+				04911FCD1F68DE1100FD6121 /* APKFloderButton.h */,
+				04911FCE1F68DE1100FD6121 /* APKFloderButton.m */,
+			);
+			name = APKFlodersView;
+			sourceTree = "<group>";
+		};
+		046CA8A31F70F99300771698 /* function */ = {
+			isa = PBXGroup;
+			children = (
+				047AEF191F735A2C004B5609 /* APKInitializeConnect.h */,
+				047AEF1A1F735A2C004B5609 /* APKInitializeConnect.m */,
+				046CA8A41F70FB4300771698 /* APKGetSettingInfo.h */,
+				046CA8A51F70FB4300771698 /* APKGetSettingInfo.m */,
+				04C1C27F1F74BBDD0006B9C8 /* APKGetDVRFiles.h */,
+				04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */,
+				04A6A7581F78A04D00ABD7E8 /* APKDVRFile.h */,
+				04A6A7591F78A04D00ABD7E8 /* APKDVRFile.m */,
+				04A6A75B1F78E54F00ABD7E8 /* APKBatchDelete.h */,
+				04A6A75C1F78E54F00ABD7E8 /* APKBatchDelete.m */,
+				04A6A7691F7908F800ABD7E8 /* APKBatchDownload.h */,
+				04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */,
+				04AD3AE91F79E2D100B27E41 /* APKPhotosKit.h */,
+				04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */,
+			);
+			name = function;
+			sourceTree = "<group>";
+		};
+		047C600B1F7C943F0084D76B /* player */ = {
+			isa = PBXGroup;
+			children = (
+				047C60391F7CA1230084D76B /* CooAVPlayer.h */,
+				047C603A1F7CA1230084D76B /* CooAVPlayer.m */,
+			);
+			name = player;
+			sourceTree = "<group>";
+		};
+		049C8AF91F6BB4AD0024E703 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				047C600B1F7C943F0084D76B /* player */,
+				04AD3AF11F7A461D00B27E41 /* files */,
+				04A6A75F1F78F5CC00ABD7E8 /* db */,
+				04C06DE91F6F79810072D064 /* AmbaA12ChipRemote */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		04A04BBC1F6A2AAB00612C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */,
+				D67216FE22BCA507005D550D /* QuickLook.framework */,
+				D603B2D1215B689200A5EFC0 /* libstdc++.6.0.9.tbd */,
+				D603B2CD215B28C000A5EFC0 /* libc++.tbd */,
+				04A04BC31F6A322800612C37 /* libiconv.tbd */,
+				04A04BC11F6A321800612C37 /* libbz2.tbd */,
+				04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */,
+				96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A6A75F1F78F5CC00ABD7E8 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				04A6A7631F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld */,
+				04A6A7601F78F5F500ABD7E8 /* APKCoreDataStack.h */,
+				04A6A7611F78F5F500ABD7E8 /* APKCoreDataStack.m */,
+				04A6A7661F79023E00ABD7E8 /* APKLocalFile.h */,
+				04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		04AD3AF11F7A461D00B27E41 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				04AD3AF21F7A463000B27E41 /* APKCachingAssetThumbnail.h */,
+				04AD3AF31F7A463000B27E41 /* APKCachingAssetThumbnail.m */,
+				04AD3AF51F7A466E00B27E41 /* APKLoadShareItems.h */,
+				04AD3AF61F7A466E00B27E41 /* APKLoadShareItems.m */,
+				04AD3AF81F7A4D0D00B27E41 /* APKMWPhoto.h */,
+				04AD3AF91F7A4D0D00B27E41 /* APKMWPhoto.m */,
+			);
+			name = files;
+			sourceTree = "<group>";
+		};
+		04C06DE91F6F79810072D064 /* AmbaA12ChipRemote */ = {
+			isa = PBXGroup;
+			children = (
+				046CA8A31F70F99300771698 /* function */,
+				049C8AFA1F6BB4E70024E703 /* APKDVR.h */,
+				049C8AFB1F6BB4E70024E703 /* APKDVR.m */,
+				0430DA901F6BC3C0008058A2 /* APKDVRMessageDataHandler.h */,
+				0430DA911F6BC3C0008058A2 /* APKDVRMessageDataHandler.m */,
+				04C06DDC1F6F6E760072D064 /* APKDVRCommandFactory.h */,
+				04C06DDD1F6F6E760072D064 /* APKDVRCommandFactory.m */,
+				04C06DD91F6F695D0072D064 /* APKDVRCommand.h */,
+				04C06DDA1F6F695D0072D064 /* APKDVRCommand.m */,
+				04C06DE31F6F74F50072D064 /* APKDVRCommandResultHandler.h */,
+				04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */,
+				04C06DDF1F6F6F530072D064 /* APKDVRInterface.h */,
+				385F631920EA171900F12DBE /* APKWifiTool.h */,
+				385F631A20EA171900F12DBE /* APKWifiTool.m */,
+				385F631C20EA1A8900F12DBE /* route.h */,
+			);
+			name = AmbaA12ChipRemote;
+			sourceTree = "<group>";
+		};
+		F9BA2235EC8086A82C9C7431 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E948FDA2020B4AC5CB6E06B1 /* Pods-Pioneer.debug.xcconfig */,
+				5DFA522AAAA5347A29A3D623 /* Pods-Pioneer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04407FA51F67CF6700BE177F /* Pioneer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04407FBD1F67CF6700BE177F /* Build configuration list for PBXNativeTarget "Pioneer" */;
+			buildPhases = (
+				F909EB42295DDACF40920CB4 /* [CP] Check Pods Manifest.lock */,
+				04407FA21F67CF6700BE177F /* Sources */,
+				04407FA31F67CF6700BE177F /* Frameworks */,
+				04407FA41F67CF6700BE177F /* Resources */,
+				F52215D9D5E642DFCAD75BD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pioneer;
+			productName = Pioneer;
+			productReference = 04407FA61F67CF6700BE177F /* Dash Camera Interface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04407F9E1F67CF6700BE177F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = APK;
+				TargetAttributes = {
+					04407FA51F67CF6700BE177F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7JA3J4SM22;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04407FA11F67CF6700BE177F /* Build configuration list for PBXProject "Pioneer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				ja,
+				"zh-Hans",
+				fr,
+				de,
+				ru,
+				it,
+				es,
+				nl,
+				"pt-BR",
+				pl,
+				"pt-PT",
+			);
+			mainGroup = 04407F9D1F67CF6700BE177F;
+			productRefGroup = 04407FA71F67CF6700BE177F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04407FA51F67CF6700BE177F /* Pioneer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04407FA41F67CF6700BE177F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04407FDC1F67D37A00BE177F /* APKTabBarCell.xib in Resources */,
+				04C016B61F7F88E800018AF6 /* InfoPlist.strings in Resources */,
+				049120081F6934F100FD6121 /* Localizable.strings in Resources */,
+				049120041F69334C00FD6121 /* Main.storyboard in Resources */,
+				D602DB5E22BB22DE00E92437 /* APKPromiseView.xib in Resources */,
+				D62D632122C0B49000DDA034 /* license-jp_ios.pdf in Resources */,
+				D67F6EAF2424B5090082A228 /* Launch Screen.storyboard in Resources */,
+				04407FB61F67CF6700BE177F /* Assets.xcassets in Resources */,
+				04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */,
+				04407FE51F67DE8A00BE177F /* APKFlodersView.xib in Resources */,
+				04407FD71F67D31200BE177F /* APKTabBar.xib in Resources */,
+				D64F8EF922CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F52215D9D5E642DFCAD75BD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pioneer/Pods-Pioneer-resources.sh",
+				"${PODS_ROOT}/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pioneer/Pods-Pioneer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F909EB42295DDACF40920CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pioneer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04407FA21F67CF6700BE177F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04911FCF1F68DE1100FD6121 /* APKFloderButton.m in Sources */,
+				385F631B20EA171A00F12DBE /* APKWifiTool.m in Sources */,
+				D678AA7622A8A94C00794CFF /* openSourceViewController.m in Sources */,
+				04407FE31F67DE5E00BE177F /* APKFlodersView.m in Sources */,
+				04407FCD1F67CFD000BE177F /* APKBaseViewController.m in Sources */,
+				04A04BC91F6A594D00612C37 /* APKLiveViewController.m in Sources */,
+				04911FF81F691A0100FD6121 /* APKLocalFilesViewController.m in Sources */,
+				04911FFE1F691BA900FD6121 /* APKFileCell.m in Sources */,
+				04AD3AEB1F79E2D100B27E41 /* APKPhotosKit.m in Sources */,
+				04C06DE51F6F74F50072D064 /* APKDVRCommandResultHandler.m in Sources */,
+				04A6A7651F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld in Sources */,
+				04407FD11F67D26800BE177F /* APKPreviewViewController.m in Sources */,
+				04AD3AF41F7A463000B27E41 /* APKCachingAssetThumbnail.m in Sources */,
+				04407FAE1F67CF6700BE177F /* AppDelegate.m in Sources */,
+				04AD3AF71F7A466E00B27E41 /* APKLoadShareItems.m in Sources */,
+				047AEF1B1F735A2C004B5609 /* APKInitializeConnect.m in Sources */,
+				04407FCB1F67CFD000BE177F /* APKBaseTabBarController.m in Sources */,
+				04AD3AFA1F7A4D0D00B27E41 /* APKMWPhoto.m in Sources */,
+				04407FED1F67E2A100BE177F /* APKFlodersViewController.m in Sources */,
+				047C603B1F7CA1230084D76B /* CooAVPlayer.m in Sources */,
+				049C8AFC1F6BB4E70024E703 /* APKDVR.m in Sources */,
+				046CA8A21F70F45700771698 /* APKAlertTool.m in Sources */,
+				04407FDF1F67D54400BE177F /* APKTabBarController.m in Sources */,
+				04A6A7681F79023E00ABD7E8 /* APKLocalFile.m in Sources */,
+				04A6A75A1F78A04D00ABD7E8 /* APKDVRFile.m in Sources */,
+				04C1C2811F74BBDD0006B9C8 /* APKGetDVRFiles.m in Sources */,
+				047C603E1F7CC8900084D76B /* APKPlayBackViewController.m in Sources */,
+				04407FAB1F67CF6700BE177F /* main.m in Sources */,
+				04A6A7621F78F5F500ABD7E8 /* APKCoreDataStack.m in Sources */,
+				049120011F69294300FD6121 /* APKSettingsViewController.m in Sources */,
+				047C60411F7CC8A40084D76B /* APKVideoPlayerController.m in Sources */,
+				04AD3AEF1F79EE0A00B27E41 /* APKDownloadInfoView.m in Sources */,
+				04C06DDE1F6F6E760072D064 /* APKDVRCommandFactory.m in Sources */,
+				046CA8A61F70FB4300771698 /* APKGetSettingInfo.m in Sources */,
+				04A6A76B1F7908F800ABD7E8 /* APKBatchDownload.m in Sources */,
+				D602DB5C22BB22C900E92437 /* APKPromiseView.m in Sources */,
+				04407FCA1F67CFD000BE177F /* APKBaseNavigationController.m in Sources */,
+				04407FD51F67D30400BE177F /* APKTabBar.m in Sources */,
+				04911FFB1F691A1000FD6121 /* APKDVRFilesViewController.m in Sources */,
+				0430DA921F6BC3C0008058A2 /* APKDVRMessageDataHandler.m in Sources */,
+				1C1CAD4B2091A933002DAAC6 /* APKPrecificationViewController.m in Sources */,
+				04C06DDB1F6F695D0072D064 /* APKDVRCommand.m in Sources */,
+				04A6A75D1F78E54F00ABD7E8 /* APKBatchDelete.m in Sources */,
+				04407FDA1F67D36700BE177F /* APKTabBarCell.m in Sources */,
+				04407FCC1F67CFD000BE177F /* APKBaseTableViewController.m in Sources */,
+				04C016B31F7F376200018AF6 /* APKSettingsContentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		049120021F69334C00FD6121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049120031F69334C00FD6121 /* Base */,
+				049120051F6934C000FD6121 /* zh-Hans */,
+				0491200B1F6937A400FD6121 /* ja */,
+				D672854622F2C3A20008B533 /* fr */,
+				D68B6D7D240CAC2700913075 /* de */,
+				D68B6D80240CD85D00913075 /* ru */,
+				D68B6D83240CDB8800913075 /* it */,
+				D68B6D86240CDFAA00913075 /* es */,
+				0420B1892436CAA300502510 /* nl */,
+				0420B18C2436D1A300502510 /* pt-BR */,
+				0420B18F2436D6DE00502510 /* pl */,
+				0420B192243718AC00502510 /* pt-PT */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0491200A1F6934F100FD6121 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049120091F6934F100FD6121 /* zh-Hans */,
+				0491200C1F6937A400FD6121 /* ja */,
+				0491200D1F6937BC00FD6121 /* en */,
+				D672854822F2C3A30008B533 /* fr */,
+				D68B6D7F240CAC2700913075 /* de */,
+				D68B6D82240CD85D00913075 /* ru */,
+				D68B6D85240CDB8800913075 /* it */,
+				D68B6D88240CDFAA00913075 /* es */,
+				0420B18B2436CAA400502510 /* nl */,
+				0420B18E2436D1A300502510 /* pt-BR */,
+				0420B1912436D6DE00502510 /* pl */,
+				0420B194243718AC00502510 /* pt-PT */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		04C016B81F7F88E800018AF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C016B71F7F88E800018AF6 /* en */,
+				04C016B91F7F88EA00018AF6 /* ja */,
+				04C016BA1F7F88EA00018AF6 /* zh-Hans */,
+				D672854722F2C3A20008B533 /* fr */,
+				D68B6D7E240CAC2700913075 /* de */,
+				D68B6D81240CD85D00913075 /* ru */,
+				D68B6D84240CDB8800913075 /* it */,
+				D68B6D87240CDFAA00913075 /* es */,
+				0420B18A2436CAA400502510 /* nl */,
+				0420B18D2436D1A300502510 /* pt-BR */,
+				0420B1902436D6DE00502510 /* pl */,
+				0420B193243718AC00502510 /* pt-PT */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04407FBB1F67CF6700BE177F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04407FBC1F67CF6700BE177F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04407FBE1F67CF6700BE177F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E948FDA2020B4AC5CB6E06B1 /* Pods-Pioneer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JA3J4SM22;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pioneer/VLCKit",
+				);
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
+				INFOPLIST_FILE = Pioneer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"PSTCollectionView\"",
+					"-l\"SDWebImage\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apical.pioneer;
+				PRODUCT_NAME = "Dash Camera Interface";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		04407FBF1F67CF6700BE177F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFA522AAAA5347A29A3D623 /* Pods-Pioneer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JA3J4SM22;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pioneer/VLCKit",
+				);
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
+				INFOPLIST_FILE = Pioneer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"DACircularProgress\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MWPhotoBrowser\"",
+					"-l\"PSTCollectionView\"",
+					"-l\"SDWebImage\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMMobClick\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apical.pioneer;
+				PRODUCT_NAME = "Dash Camera Interface";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04407FA11F67CF6700BE177F /* Build configuration list for PBXProject "Pioneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04407FBB1F67CF6700BE177F /* Debug */,
+				04407FBC1F67CF6700BE177F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04407FBD1F67CF6700BE177F /* Build configuration list for PBXNativeTarget "Pioneer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04407FBE1F67CF6700BE177F /* Debug */,
+				04407FBF1F67CF6700BE177F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04A6A7631F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04A6A7641F78F7A100ABD7E8 /* PioneerModal.xcdatamodel */,
+			);
+			currentVersion = 04A6A7641F78F7A100ABD7E8 /* PioneerModal.xcdatamodel */;
+			path = PioneerModal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04407F9E1F67CF6700BE177F /* Project object */;
+}

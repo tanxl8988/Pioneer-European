@@ -1,0 +1,75 @@
+/*
+  Localizable.strings
+  Pioneer
+
+  Created by Mac on 17/9/13.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+
+//预览界面
+"摄像机"="Kamera";
+"连接"="接続";
+"正在录制事件..." = "Podczas rejestratora zdarzeń";
+"拍摄事件失败"="Rejestracja zdarzenia nie powiodła się";
+"拍摄照片失败" = "Przechwytywanie zdjęcia nie powiodło się";
+
+
+//文件列表
+"本地文件"="Dane wewnętrzne";
+"摄像机文件"="Rejestrator danych z karty SD";
+"视频"="Wideo";
+"事件"="Wydarzenie";
+"泊车"="Parking";
+"照片"="Zdjęcie";
+"删除%d个文件？"="Usunąć plik ?";
+"手机存储空间不足"="Osiągnięto limit pamięci mobilnej";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="Dane zdjęcia są pobrane do „Zdjęć”.  Dostęp do zdjęć ?";
+"下载" = "Pobrać";
+"已下载" = "Pobieranie zakończone";
+
+//设置
+"录制时长"="Długość klipu wideo";
+"1分钟"="1 minuta";
+"3分钟"="3 minuty";
+"5分钟"="5 minut";
+"视频格式"="Rozdzielczość wideo";
+"时间同步"="Data i godzina połączenia";
+"WiFi名称"="SSID";
+"WiFi密码"="Hasło";
+"格式化SD卡"="Sformatuj kartę SD";
+"格式化SD卡详情"="Wszystkie dane zostaną usunięte. Sformatować kartę SD?";
+"恢复出厂设置"="Przywrócić do trybu fabrycznego";
+"恢复出厂设置详情"="Przywrócić domyślny tryb fabryczny (Tak/Nie)";
+"软件信息"="Wersja";
+"格式化SD卡成功"="Karta SD sformatowana";
+"格式化SD卡失败"="Ustawienie nie powiodło się";
+"格式化成功提示" = "Po następnym uruchomieniu, identyfikator SSID i hasło powrócą do ustawień fabrycznych";
+"恢复出厂设置成功"="Ustawienie przywraca tryb fabryczny";
+"恢复出厂设置失败"="Ustawienie nie powiodło się";
+"设置成功"="Ustawienie zakończone";
+"设置失败"="Ustawienie nie powiodło się";
+"请输入1-11位Wi-Fi名称："="Wprowadź maksymalnie 11 znaków alfanumerycznych identyfikatora SSID:";
+"请输入8位Wi-Fi密码："="Wprowadź 8 znaków alfanumerycznych:";
+"说明书"="Jak używać";
+"请连接WiFi"="Połącz z Wi-Fi";
+"初始值：88888888"="Wartość początkowa：88888888";
+"初始值：Pioneer_DVR"="Wartość początkowa：Pioneer_DVR";
+"未连接"="Nie połączony";
+
+//其他
+"Done"="✕";
+"确定"="Tak";
+"取消"="Anuluj";
+"文件码流过大，请下载到本地播放" = "Pobierz na iPhone’a i graj";
+"修改WiFi成功提示" = "Zrestartuj rejestrator dysku";
+
+"开放源代码许可" = "Informacja";
+"版本号" = "Wersja aplikacji";
+"不同意" = "Nie zgadzać się";
+"同意" = "Zgodzić się";
+"开放源代码许可" = "Informacja";
+"重新连接" = "Podłącz ponownie rejestrator napędu";
+"紧急录像中，请稍后再试" = "Podczas rejestratora zdarzeń";
+"紧急录像中，无法设置" = "Podczas rejestratora zdarzeń";
+"两台同时连接提示" = "Kolejne urządzenie zostało podłączone do rejestratora dysków. Odłącz od tego urządzenia";
+"执行下载将停止录像" = "Nagrywanie zostanie zatrzymane podczas pobierania pliku. Jesteś pewny?";

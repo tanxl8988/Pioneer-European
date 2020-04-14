@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Pioneer
+
+  Created by Mac on 17/9/30.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+NSPhotoLibraryUsageDescription = "ドライブレコーダーで記録した動画、写真ファイルを保存します。";
+"CFBundleDisplayName" = "Interface";
