@@ -540,7 +540,7 @@
         CGFloat Y = CGRectGetMaxY(self.headerView.frame)+26;
         
         NSString *iphone = [self iphoneType];
-        if ([iphone isEqualToString:@"iPhone X"] || [iphone isEqualToString:@"iPhone XR"] || [iphone isEqualToString:@"iPhone XS"] || [iphone isEqualToString:@"iPhone XS Max"]) {
+        if ([iphone isEqualToString:@"iPhone X"] || [iphone isEqualToString:@"iPhone XR"] || [iphone isEqualToString:@"iPhone XS"] || [iphone isEqualToString:@"iPhone XS Max"] || [iphone isEqualToString:@"iPhone 11"] || [iphone isEqualToString:@"iPhone 11 Pro"] || [iphone isEqualToString:@"iPhone 11 Pro Max"]) {
             Y = CGRectGetMaxY(self.headerView.frame) + 50;
         }
         
@@ -560,6 +560,10 @@
     if([platform isEqualToString:@"iPhone11,8"]) return @"iPhone XR";
     if([platform isEqualToString:@"iPhone11,2"]) return @"iPhone XS";
     if([platform isEqualToString:@"iPhone11,6"]) return @"iPhone XS Max";
+    if([platform isEqualToString:@"iPhone12,1"]) return @"iPhone 11";
+    if([platform isEqualToString:@"iPhone12,3"]) return @"iPhone 11 Pro";
+    if([platform isEqualToString:@"iPhone12,5"]) return @"iPhone 11 Pro Max";
+
     return platform;
 }
 

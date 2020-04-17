@@ -48,6 +48,7 @@
 		04A6A7651F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7631F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld */; };
 		04A6A7681F79023E00ABD7E8 /* APKLocalFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */; };
 		04A6A76B1F7908F800ABD7E8 /* APKBatchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */; };
+		04A828EC2445646A00140815 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A828EB2445646A00140815 /* MobileVLCKit.framework */; };
 		04AD3AEB1F79E2D100B27E41 /* APKPhotosKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */; };
 		04AD3AEF1F79EE0A00B27E41 /* APKDownloadInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AED1F79EE0A00B27E41 /* APKDownloadInfoView.m */; };
 		04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3AEE1F79EE0A00B27E41 /* APKDownloadInfoView.xib */; };
@@ -165,6 +166,7 @@
 		04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFile.m; sourceTree = "<group>"; };
 		04A6A7691F7908F800ABD7E8 /* APKBatchDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDownload.h; sourceTree = "<group>"; };
 		04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDownload.m; sourceTree = "<group>"; };
+		04A828EB2445646A00140815 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
 		04AD3AE91F79E2D100B27E41 /* APKPhotosKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPhotosKit.h; sourceTree = "<group>"; };
 		04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPhotosKit.m; sourceTree = "<group>"; };
 		04AD3AEC1F79EE0A00B27E41 /* APKDownloadInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDownloadInfoView.h; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				04A04BBE1F6A2AAB00612C37 /* AudioToolbox.framework in Frameworks */,
 				66FAA837394111AE8E6724D2 /* libPods-Pioneer.a in Frameworks */,
 				04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */,
+				04A828EC2445646A00140815 /* MobileVLCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +437,7 @@
 				D603B2CD215B28C000A5EFC0 /* libc++.tbd */,
 				04A04BC31F6A322800612C37 /* libiconv.tbd */,
 				04A04BC11F6A321800612C37 /* libbz2.tbd */,
+				04A828EB2445646A00140815 /* MobileVLCKit.framework */,
 				04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */,
 				96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */,
 			);
@@ -845,6 +849,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pioneer/VLCKit",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
 				INFOPLIST_FILE = Pioneer/Info.plist;
@@ -909,6 +914,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pioneer/VLCKit",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
 				INFOPLIST_FILE = Pioneer/Info.plist;

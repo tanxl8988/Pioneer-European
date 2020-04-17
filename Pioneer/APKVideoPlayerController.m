@@ -283,6 +283,7 @@ typedef enum : NSUInteger {
     
     NSString *name = self.assetNames[currentIndex];
     self.titleLabel.text = name;
+    self.titleLabel.textAlignment = NSTextAlignmentCenter;
     
     id asset = self.assets[currentIndex];
     [self.player updateAsset:asset];

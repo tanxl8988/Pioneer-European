@@ -59,7 +59,7 @@
 //其他
 "Done"="✕";
 "确定"="Yes";
-"取消"="Cancel";
+"取消"="No";
 "文件码流过大，请下载到本地播放" = "Download to iPhone and play";
 "修改WiFi成功提示" = "Restart the drive recorder";
 

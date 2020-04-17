@@ -674,6 +674,7 @@ Cg
                                     <segment title="Second"/>
                                 </segments>
                                 <color key="tintColor" red="0.71764705880000002" green="0.090196078430000007" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="selectedSegmentTintColor" red="0.71764705880000002" green="0.090196078430000007" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="updateSegmentControl:" destination="DQe-i3-mW9" eventType="valueChanged" id="Vt8-Yv-Jbd"/>
                                 </connections>
@@ -1664,7 +1665,7 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CnG-V8-2sG"/>
+        <segue reference="wvq-Xv-Qd0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ImageError.png" width="40" height="40"/>

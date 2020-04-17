@@ -80,9 +80,9 @@ static NSString *cellIdentifier = @"fileCell";
     self.tableView.allowsMultipleSelection = NO;
     
     NSString *isDark = [[NSUserDefaults standardUserDefaults] objectForKey:@"DARKMODE"];
-        if ([isDark isEqualToString:@"YES"]) {
-            self.view.backgroundColor = [UIColor blackColor];
-        }
+    if ([isDark isEqualToString:@"YES"]) {
+        self.view.backgroundColor = [UIColor blackColor];
+    }
 }
 
 - (void)handleApplicationState:(NSNotification *)notification{
@@ -540,9 +540,9 @@ static NSString *cellIdentifier = @"fileCell";
     else{
         
         [self.tableView reloadData];
+        _lastIndexPath = nil;
         self.isCheckAll = NO;
     }
-    
     [self updateButtonsEnableState];
 }
 
