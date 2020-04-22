@@ -52,15 +52,15 @@
 "请输入8位Wi-Fi密码："="Digite 8 caracteres alfanuméricos:";
 "说明书"="Como usar";
 "请连接WiFi"="Ligar à Wi-Fi";
-"初始值：88888888"="Valor inicial：88888888";
-"初始值：Pioneer_DVR"="Valor inicial：Pioneer_DVR";
+"初始值：88888888"="Valor inicial:88888888";
+"初始值：Pioneer_DVR"="Valor inicial:Pioneer_DVR";
 "未连接"="Não conectado";
 
 //其他
 "Done"="✕";
 "确定"="Sim";
 "取消"="Não";
-"文件码流过大，请下载到本地播放" = "Descarregar para iPhone e reproduzir";
+"文件码流过大，请下载到本地播放" = "Por favor descarregue os dados para o smartphone antes de reproduzir o vídeo.";
 "修改WiFi成功提示" = "Reiniciar a unidade de gravação.";
 
 "开放源代码许可" = "Informação";

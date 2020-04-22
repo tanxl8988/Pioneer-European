@@ -52,15 +52,15 @@
 "请输入8位Wi-Fi密码："="Wprowadź 8 znaków alfanumerycznych:";
 "说明书"="Jak używać";
 "请连接WiFi"="Połącz z Wi-Fi";
-"初始值：88888888"="Wartość początkowa：88888888";
-"初始值：Pioneer_DVR"="Wartość początkowa：Pioneer_DVR";
+"初始值：88888888"="Wartość początkowa:88888888";
+"初始值：Pioneer_DVR"="Wartość początkowa:Pioneer_DVR";
 "未连接"="Nie połączony";
 
 //其他
 "Done"="✕";
 "确定"="Tak";
 "取消"="Nie";
-"文件码流过大，请下载到本地播放" = "Pobierz na iPhone’a i graj";
+"文件码流过大，请下载到本地播放" = "Pobierz dane do smartfona przed odtworzeniem wideo.";
 "修改WiFi成功提示" = "Zrestartuj rejestrator dysku";
 
 "开放源代码许可" = "Informacja";

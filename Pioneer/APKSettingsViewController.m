@@ -145,7 +145,9 @@
     }else if([APKDVR sharedInstance].connectState == APKDVRConnectStateDisconnected)
     {
         self.content.wifiPasswordInfoLabel.text = NSLocalizedString(@"初始值：88888888", nil);
+        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
         self.content.wifiNameInfoLabel.text = NSLocalizedString(@"初始值：Pioneer_DVR", nil);
+        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
     }
 }
 
@@ -429,6 +431,8 @@
         self.content.wifiPasswordInfoLabel.text = NSLocalizedString(@"初始值：88888888", nil);
         self.content.wifiNameInfoLabel.text = NSLocalizedString(@"初始值：Pioneer_DVR", nil);
         self.content.firmwareVersionInfoLabel.text = @"--";
+        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
     });
 }
 
@@ -458,6 +462,8 @@
             
             weakSelf.content.wifiNameInfoLabel.text = weakSelf.wifiInfo.account;
             weakSelf.content.wifiPasswordInfoLabel.text = weakSelf.wifiInfo.password;
+            self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 120, 12,90 , 40);
+            self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 120, 12,90 , 40);
 //            [[NSUserDefaults standardUserDefaults] setObject:weakSelf.wifiInfo.password forKey:KWifiPassword];
 //            [[NSUserDefaults standardUserDefaults] synchronize];
             

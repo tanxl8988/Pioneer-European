@@ -52,15 +52,15 @@
 "请输入8位Wi-Fi密码："="Voer 8 alfanumerieke tekens in:";
 "说明书"="Hoe te gebruiken";
 "请连接WiFi"="Verbinden met WiFi";
-"初始值：88888888"="Initiële waarde：88888888";
-"初始值：Pioneer_DVR"="Initiële waarde：Pioneer_DVR";
+"初始值：88888888"="Initiële waarde:88888888";
+"初始值：Pioneer_DVR"="Initiële waarde:Pioneer_DVR";
 "未连接"="Niet aangesloten";
 
 //其他
 "Done"="✕";
 "确定"="Ja";
 "取消"="Nee";
-"文件码流过大，请下载到本地播放" = "Downloaden naar iPhone en afspelen";
+"文件码流过大，请下载到本地播放" = "Download de gegevens naar de smartphone voordat u de video afspeelt";
 "修改WiFi成功提示" = "Herstart de drive recorder";
 
 "版本号" = "App versie";

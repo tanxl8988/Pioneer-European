@@ -16,7 +16,7 @@
 
 //文件列表
 "本地文件"="Données internes";
-"摄像机文件"="Drive Recorder SD Card Data";
+"摄像机文件"="Données carte SD caméra embarquée";
 "视频"="Vidéo";
 "事件"="Événement";
 "泊车"="Parking";
@@ -52,15 +52,15 @@
 "请输入8位Wi-Fi密码："="Veuillez saisir 8 caractères alphanumériques";
 "说明书"="Comment utiliser";
 "请连接WiFi"="Connectez le Wi-fi";
-"初始值：88888888"="Mot de passe initial：88888888";
-"初始值：Pioneer_DVR"="SSID initial：Pioneer_DVR";
+"初始值：88888888"="Mot de passe initial:88888888";
+"初始值：Pioneer_DVR"="SSID initial:Pioneer_DVR";
 "未连接"="Non connecté";
 
 //其他
 "Done"="✕";
 "确定"="Oui";
 "取消"="Non";
-"文件码流过大，请下载到本地播放" = "Télécharger sur iPhone et lecture";
+"文件码流过大，请下载到本地播放" = "Téléchargez les données sur le smartphone avant de lancer la lecture.";
 "修改WiFi成功提示" = "Redémarrage de la caméra";
 
 "版本号" = "Version App";

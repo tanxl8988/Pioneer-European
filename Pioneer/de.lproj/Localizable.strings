@@ -52,15 +52,15 @@
 "请输入8位Wi-Fi密码："="Bitte geben Sie 8 alphanumerische Zeichen ein";
 "说明书"="Wie benutzt man";
 "请连接WiFi"="Mit Wi-Fi verbinden";
-"初始值：88888888"="Initiales Passwort：88888888";
-"初始值：Pioneer_DVR"="Anfängliche SSID：Pioneer_DVR";
+"初始值：88888888"="Initiales Passwort:88888888";
+"初始值：Pioneer_DVR"="Anfängliche SSID:Pioneer_DVR";
 "未连接"="Nicht verbunden";
 
 //其他
 "Done"="✕";
 "确定"="Ja";
 "取消"="Nein";
-"文件码流过大，请下载到本地播放" = "Auf das iPhone herunterladen und spielen";
+"文件码流过大，请下载到本地播放" = "Bitte vor der Wiedergabe des Videos Daten auf das Smartphone herunterladen.";
 "修改WiFi成功提示" = "Starten Sie den Drive Recorder neu";
 
 "版本号" = "App version";

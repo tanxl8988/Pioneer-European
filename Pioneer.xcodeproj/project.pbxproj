@@ -48,7 +48,6 @@
 		04A6A7651F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7631F78F7A100ABD7E8 /* PioneerModal.xcdatamodeld */; };
 		04A6A7681F79023E00ABD7E8 /* APKLocalFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */; };
 		04A6A76B1F7908F800ABD7E8 /* APKBatchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */; };
-		04A828EC2445646A00140815 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A828EB2445646A00140815 /* MobileVLCKit.framework */; };
 		04AD3AEB1F79E2D100B27E41 /* APKPhotosKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */; };
 		04AD3AEF1F79EE0A00B27E41 /* APKDownloadInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3AED1F79EE0A00B27E41 /* APKDownloadInfoView.m */; };
 		04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3AEE1F79EE0A00B27E41 /* APKDownloadInfoView.xib */; };
@@ -62,6 +61,9 @@
 		04C06DE51F6F74F50072D064 /* APKDVRCommandResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */; };
 		04C1C2811F74BBDD0006B9C8 /* APKGetDVRFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */; };
 		04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */; };
+		04FD6C55244EAB02009E0B61 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */; };
+		04FD6C57244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */; };
+		04FD6C59244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */; };
 		1C1CAD4B2091A933002DAAC6 /* APKPrecificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CAD4A2091A933002DAAC6 /* APKPrecificationViewController.m */; };
 		385F631B20EA171A00F12DBE /* APKWifiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 385F631A20EA171900F12DBE /* APKWifiTool.m */; };
 		66FAA837394111AE8E6724D2 /* libPods-Pioneer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */; };
@@ -166,7 +168,6 @@
 		04A6A7671F79023E00ABD7E8 /* APKLocalFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFile.m; sourceTree = "<group>"; };
 		04A6A7691F7908F800ABD7E8 /* APKBatchDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDownload.h; sourceTree = "<group>"; };
 		04A6A76A1F7908F800ABD7E8 /* APKBatchDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDownload.m; sourceTree = "<group>"; };
-		04A828EB2445646A00140815 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
 		04AD3AE91F79E2D100B27E41 /* APKPhotosKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPhotosKit.h; sourceTree = "<group>"; };
 		04AD3AEA1F79E2D100B27E41 /* APKPhotosKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPhotosKit.m; sourceTree = "<group>"; };
 		04AD3AEC1F79EE0A00B27E41 /* APKDownloadInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDownloadInfoView.h; sourceTree = "<group>"; };
@@ -193,6 +194,9 @@
 		04C1C27F1F74BBDD0006B9C8 /* APKGetDVRFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRFiles.h; sourceTree = "<group>"; };
 		04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRFiles.m; sourceTree = "<group>"; };
 		04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
+		04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf"; sourceTree = "<group>"; };
+		04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf"; sourceTree = "<group>"; };
 		1C1CAD492091A933002DAAC6 /* APKPrecificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APKPrecificationViewController.h; sourceTree = "<group>"; };
 		1C1CAD4A2091A933002DAAC6 /* APKPrecificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APKPrecificationViewController.m; sourceTree = "<group>"; };
 		385F631920EA171900F12DBE /* APKWifiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKWifiTool.h; sourceTree = "<group>"; };
@@ -241,7 +245,7 @@
 				04A04BBE1F6A2AAB00612C37 /* AudioToolbox.framework in Frameworks */,
 				66FAA837394111AE8E6724D2 /* libPods-Pioneer.a in Frameworks */,
 				04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */,
-				04A828EC2445646A00140815 /* MobileVLCKit.framework in Frameworks */,
+				04FD6C55244EAB02009E0B61 /* MobileVLCKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,8 @@
 				04407FCE1F67D17400BE177F /* APKPrefixFile.pch */,
 				04407FB51F67CF6700BE177F /* Assets.xcassets */,
 				D62D632022C0B49000DDA034 /* license-jp_ios.pdf */,
+				04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */,
+				04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */,
 				D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */,
 				04407FBA1F67CF6700BE177F /* Info.plist */,
 				04407FAA1F67CF6700BE177F /* main.m */,
@@ -437,7 +443,7 @@
 				D603B2CD215B28C000A5EFC0 /* libc++.tbd */,
 				04A04BC31F6A322800612C37 /* libiconv.tbd */,
 				04A04BC11F6A321800612C37 /* libbz2.tbd */,
-				04A828EB2445646A00140815 /* MobileVLCKit.framework */,
+				04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */,
 				04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */,
 				96B7A24BE0830E4F16037758 /* libPods-Pioneer.a */,
 			);
@@ -575,10 +581,12 @@
 			files = (
 				04407FDC1F67D37A00BE177F /* APKTabBarCell.xib in Resources */,
 				04C016B61F7F88E800018AF6 /* InfoPlist.strings in Resources */,
+				04FD6C57244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf in Resources */,
 				049120081F6934F100FD6121 /* Localizable.strings in Resources */,
 				049120041F69334C00FD6121 /* Main.storyboard in Resources */,
 				D602DB5E22BB22DE00E92437 /* APKPromiseView.xib in Resources */,
 				D62D632122C0B49000DDA034 /* license-jp_ios.pdf in Resources */,
+				04FD6C59244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf in Resources */,
 				D67F6EAF2424B5090082A228 /* Launch Screen.storyboard in Resources */,
 				04407FB61F67CF6700BE177F /* Assets.xcassets in Resources */,
 				04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */,

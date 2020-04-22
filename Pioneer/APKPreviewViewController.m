@@ -300,7 +300,6 @@
             NSLog(@"✅开始实时预览");
         }
         else{
-            
             [self.live stopLive];
             NSLog(@"❌停止实时预览");
         }
@@ -455,12 +454,18 @@
             
             self.captureButton.enabled = NO;
             self.isRecordEvent = YES;
+//            self.lockButton.enabled = NO;
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(NSEC_PER_SEC * 10)), dispatch_get_main_queue(), ^{
                 self.captureButton.enabled = YES;
                 self.isRecordEvent = NO;
             });
+            
+//            int captureLockTime = [APKDVR sharedInstance].deviceNumber == APKDVRDeviceDZ700 ? 23 : 33;
+//            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(NSEC_PER_SEC * (captureLockTime + 10))), dispatch_get_main_queue(), ^{
+//                self.lockButton.enabled = YES;
+//                self.isRecordEvent = NO;
+//            });
         });
-        
     } failure:^(int rval) {
         dispatch_async(dispatch_get_main_queue(), ^{
             
@@ -470,7 +475,7 @@
             if (rval == -31)
                 [APKAlertTool showAlertInViewController:self.tabBarController title:nil message:NSLocalizedString(@"紧急录像中，请稍后再试", nil) confirmHandler:nil];
             else
-                [APKAlertTool showAlertInViewController:self.tabBarController title:nil message:NSLocalizedString(@"拍摄照片失败",nil) confirmHandler:nil];        });
+                [APKAlertTool showAlertInViewController:self.tabBarController title:nil message:NSLocalizedString(@"拍摄事件失败",nil) confirmHandler:nil];        });
         
     }] execute];
 }
