@@ -43,7 +43,7 @@
 "软件信息"="Versión";
 "格式化SD卡成功"="Tarjeta SD formateada";
 "格式化SD卡失败"="Configuración faliida";
-"格式化成功提示" = "Después del próximo inicio, el SSID y la contraseña volverán a los valores predeterminados de fábrica.";
+"恢复出厂设置成功提示" = "Vuelva a conectar la grabadora";
 "恢复出厂设置成功"="Configuracion para restaurar al Modo Fabrica";
 "恢复出厂设置失败"="Configuración faliida";
 "设置成功"="Configuración completa";

@@ -145,9 +145,9 @@
     }else if([APKDVR sharedInstance].connectState == APKDVRConnectStateDisconnected)
     {
         self.content.wifiPasswordInfoLabel.text = NSLocalizedString(@"初始值：88888888", nil);
-        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
         self.content.wifiNameInfoLabel.text = NSLocalizedString(@"初始值：Pioneer_DVR", nil);
         self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
     }
 }
 
@@ -406,7 +406,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 
                 [hud hide:YES];
-                [APKAlertTool showAlertInViewController:weakSelf title:nil message:NSLocalizedString(@"恢复出厂设置成功", nil) confirmHandler:nil];
+                [APKAlertTool showAlertInViewController:weakSelf title:NSLocalizedString(@"恢复出厂设置成功", nil) message:NSLocalizedString(@"恢复出厂设置成功提示", nil) confirmHandler:nil];
             });
             
         } failure:^(int rval) {
@@ -414,7 +414,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 
                 [hud hide:YES];
-                [APKAlertTool showAlertInViewController:weakSelf title:nil message:NSLocalizedString(@"格式化SD卡失败", nil) confirmHandler:nil];
+                [APKAlertTool showAlertInViewController:weakSelf title:nil message:NSLocalizedString(@"恢复出厂设置失败", nil) confirmHandler:nil];
             });
         }];
         [[APKDVR sharedInstance] executeCommand:command];
@@ -462,8 +462,8 @@
             
             weakSelf.content.wifiNameInfoLabel.text = weakSelf.wifiInfo.account;
             weakSelf.content.wifiPasswordInfoLabel.text = weakSelf.wifiInfo.password;
-            self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 120, 12,90 , 40);
-            self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 120, 12,90 , 40);
+            self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
+            self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
 //            [[NSUserDefaults standardUserDefaults] setObject:weakSelf.wifiInfo.password forKey:KWifiPassword];
 //            [[NSUserDefaults standardUserDefaults] synchronize];
             

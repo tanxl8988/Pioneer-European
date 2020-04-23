@@ -43,7 +43,7 @@
 "软件信息"="Version";
 "格式化SD卡成功"="Carte SD formatée";
 "格式化SD卡失败"="Échec du réglage";
-"格式化成功提示" = "Après le prochain démarrage, le SSID et le mot de passe reviendront à leurs valeurs par défaut.";
+"恢复出厂设置成功提示" = "Merci de reconnecter la caméra";
 "恢复出厂设置成功"="Réinitialisation d'usine";
 "恢复出厂设置失败"="Échec du réglage";
 "设置成功"="Réglage terminé";

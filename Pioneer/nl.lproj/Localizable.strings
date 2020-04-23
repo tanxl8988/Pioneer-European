@@ -43,7 +43,7 @@
 "软件信息"="Versie";
 "格式化SD卡成功"="SD kaart geformateerd";
 "格式化SD卡失败"="Instelling mislukt";
-"格式化成功提示" = "De volgende keer na het opstarten keren de SSID en het wachtwoord terug naar de standaard fabrieksinstellingen.";
+"恢复出厂设置成功提示" = "Sluit de drive recorder opnieuw aan.";
 "恢复出厂设置成功"="Fabrieksinstellingen terugzetten";
 "恢复出厂设置失败"="Instelling mislukt";
 "设置成功"="Instelling voltooid";

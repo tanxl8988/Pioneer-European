@@ -43,7 +43,7 @@
 "软件信息"="Versione";
 "格式化SD卡成功"="Scheda SD formattata";
 "格式化SD卡失败"="Fallito";
-"格式化成功提示" = "Dopo il prossimo avvio, l'SSID e la password torneranno ai valori di fabbrica.";
+"恢复出厂设置成功提示" = "Si prega di ricollegare il Drive Recorder";
 "恢复出厂设置成功"="Ripristino impostazioni alla modalità di fabbricaた";
 "恢复出厂设置失败"="Impostazione non riuscita。";
 "设置成功"="Impostazione completata";

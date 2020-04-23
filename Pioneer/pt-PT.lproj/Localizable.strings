@@ -43,7 +43,7 @@
 "软件信息"="Versão";
 "格式化SD卡成功"="Cartão SD formatado";
 "格式化SD卡失败"="Definições falharam";
-"格式化成功提示" = "No próximo arranque, a SSID e senha serão restauradas para as definições de fábrica.";
+"恢复出厂设置成功提示" = "Por favor ligue novamente à unidade de gravação.";
 "恢复出厂设置成功"="Restaurar para Definições de Fábrica";
 "恢复出厂设置失败"="Definições falharam";
 "设置成功"="Definições completas";

@@ -43,7 +43,7 @@
 "软件信息"="Version";
 "格式化SD卡成功"="SD card formatted";
 "格式化SD卡失败"="Setting failed";
-"格式化成功提示" = "After the next startup, the SSID and password will return to the factory default.";
+"恢复出厂设置成功提示" = "Please reconnect the drive recorder.";
 "恢复出厂设置成功"="Setting restores to factory Mode";
 "恢复出厂设置失败"="Setting failed";
 "设置成功"="Setting completed";
