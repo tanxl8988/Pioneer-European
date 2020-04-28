@@ -28,6 +28,7 @@ typedef enum : NSUInteger {
 @property (assign,nonatomic) APKDVRDeviceNumber deviceNumber;
 @property (nonatomic,assign) BOOL isRearCamera;
 @property (nonatomic,assign) BOOL deviceWIfiIsClose;
+@property (assign,nonatomic) BOOL appIsInSettingVC;
 
 + (instancetype)sharedInstance;
 - (void)connect;

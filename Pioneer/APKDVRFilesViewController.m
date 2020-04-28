@@ -83,6 +83,9 @@ static NSString *cellIdentifier = @"fileCell";
     if ([isDark isEqualToString:@"YES"]) {
         self.view.backgroundColor = [UIColor blackColor];
     }
+    
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+
 }
 
 - (void)handleApplicationState:(NSNotification *)notification{
@@ -101,6 +104,12 @@ static NSString *cellIdentifier = @"fileCell";
     if (self.photos.count != 0)
         [self.photos removeAllObjects];
 
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
 }
 
 - (void)didReceiveMemoryWarning {

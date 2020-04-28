@@ -35,6 +35,7 @@
     [APKCoreDataStack sharedInstance];
     //initialize DVR
     APKDVR *dvr = [APKDVR sharedInstance];
+    dvr.appIsInSettingVC = NO;
     [dvr addObserver:self forKeyPath:@"connectState" options:NSKeyValueObservingOptionNew context:nil];
 
     //集成友盟统计

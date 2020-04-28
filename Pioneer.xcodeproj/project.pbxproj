@@ -37,6 +37,28 @@
 		049120011F69294300FD6121 /* APKSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049120001F69294300FD6121 /* APKSettingsViewController.m */; };
 		049120041F69334C00FD6121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049120021F69334C00FD6121 /* Main.storyboard */; };
 		049120081F6934F100FD6121 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0491200A1F6934F100FD6121 /* Localizable.strings */; };
+		049865A62456733A0050663F /* Dash Camera Interface EULA(Russian).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865922456733A0050663F /* Dash Camera Interface EULA(Russian).docx */; };
+		049865A72456733A0050663F /* Dash Camera Intreface Privacy Policy(Russian).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865932456733A0050663F /* Dash Camera Intreface Privacy Policy(Russian).docx */; };
+		049865A82456733A0050663F /* Dash Camera Interface EULA(Portuguese).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865952456733A0050663F /* Dash Camera Interface EULA(Portuguese).docx */; };
+		049865A92456733A0050663F /* Dash Camera Intreface Privacy Policy(Portuguese).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865962456733A0050663F /* Dash Camera Intreface Privacy Policy(Portuguese).docx */; };
+		049865AA2456733A0050663F /* Dash Camera Interface EULA(Dutch).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865982456733A0050663F /* Dash Camera Interface EULA(Dutch).docx */; };
+		049865AB2456733A0050663F /* Dash Camera Interface Privacy Policy(Dutch).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865992456733A0050663F /* Dash Camera Interface Privacy Policy(Dutch).docx */; };
+		049865AC2456733A0050663F /* Dash Camera Interface Privacy Policy(German).docx in Resources */ = {isa = PBXBuildFile; fileRef = 0498659B2456733A0050663F /* Dash Camera Interface Privacy Policy(German).docx */; };
+		049865AD2456733A0050663F /* Dash Camera Interface EULA(German).docx in Resources */ = {isa = PBXBuildFile; fileRef = 0498659C2456733A0050663F /* Dash Camera Interface EULA(German).docx */; };
+		049865AE2456733A0050663F /* Dash Camera Interface EULA(French).docx in Resources */ = {isa = PBXBuildFile; fileRef = 0498659E2456733A0050663F /* Dash Camera Interface EULA(French).docx */; };
+		049865AF2456733A0050663F /* Dash Camera Interface Privacy Policy(French).docx in Resources */ = {isa = PBXBuildFile; fileRef = 0498659F2456733A0050663F /* Dash Camera Interface Privacy Policy(French).docx */; };
+		049865B02456733A0050663F /* Dash Camera Interface EULA(Spanish).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865A12456733A0050663F /* Dash Camera Interface EULA(Spanish).docx */; };
+		049865B12456733A0050663F /* Dash Camera Interface Privacy Policy(Spanish).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865A22456733A0050663F /* Dash Camera Interface Privacy Policy(Spanish).docx */; };
+		049865B22456733A0050663F /* Dash Camera Interface Privacy Policy(English).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865A42456733A0050663F /* Dash Camera Interface Privacy Policy(English).docx */; };
+		049865B32456733A0050663F /* Dash Camera Interface EULA(English).docx in Resources */ = {isa = PBXBuildFile; fileRef = 049865A52456733A0050663F /* Dash Camera Interface EULA(English).docx */; };
+		049866082456C9E30050663F /* html - iOS(DU).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866002456C9E30050663F /* html - iOS(DU).pdf */; };
+		049866092456C9E30050663F /* html - iOS(SP).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866012456C9E30050663F /* html - iOS(SP).pdf */; };
+		0498660A2456C9E30050663F /* html - iOS(FR).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866022456C9E30050663F /* html - iOS(FR).pdf */; };
+		0498660B2456C9E30050663F /* html - iOS(IT).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866032456C9E30050663F /* html - iOS(IT).pdf */; };
+		0498660C2456C9E30050663F /* html - iOS(RU).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866042456C9E30050663F /* html - iOS(RU).pdf */; };
+		0498660D2456C9E30050663F /* html - iOS(POR).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866052456C9E30050663F /* html - iOS(POR).pdf */; };
+		0498660E2456C9E30050663F /* html - iOS(GER).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866062456C9E30050663F /* html - iOS(GER).pdf */; };
+		0498660F2456C9E30050663F /* html - iOS（UK）.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 049866072456C9E30050663F /* html - iOS（UK）.pdf */; };
 		049C8AFC1F6BB4E70024E703 /* APKDVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C8AFB1F6BB4E70024E703 /* APKDVR.m */; };
 		04A04BBE1F6A2AAB00612C37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */; };
 		04A04BC21F6A321800612C37 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A04BC11F6A321800612C37 /* libbz2.tbd */; };
@@ -92,7 +114,7 @@
 		0420B194243718AC00502510 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0430DA901F6BC3C0008058A2 /* APKDVRMessageDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRMessageDataHandler.h; sourceTree = "<group>"; };
 		0430DA911F6BC3C0008058A2 /* APKDVRMessageDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRMessageDataHandler.m; sourceTree = "<group>"; };
-		04407FA61F67CF6700BE177F /* Dash Camera Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dash Camera Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04407FA61F67CF6700BE177F /* Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04407FAA1F67CF6700BE177F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04407FAC1F67CF6700BE177F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04407FAD1F67CF6700BE177F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -150,6 +172,28 @@
 		0491200B1F6937A400FD6121 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		0491200C1F6937A400FD6121 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0491200D1F6937BC00FD6121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		049865922456733A0050663F /* Dash Camera Interface EULA(Russian).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(Russian).docx"; sourceTree = "<group>"; };
+		049865932456733A0050663F /* Dash Camera Intreface Privacy Policy(Russian).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Intreface Privacy Policy(Russian).docx"; sourceTree = "<group>"; };
+		049865952456733A0050663F /* Dash Camera Interface EULA(Portuguese).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(Portuguese).docx"; sourceTree = "<group>"; };
+		049865962456733A0050663F /* Dash Camera Intreface Privacy Policy(Portuguese).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Intreface Privacy Policy(Portuguese).docx"; sourceTree = "<group>"; };
+		049865982456733A0050663F /* Dash Camera Interface EULA(Dutch).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(Dutch).docx"; sourceTree = "<group>"; };
+		049865992456733A0050663F /* Dash Camera Interface Privacy Policy(Dutch).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface Privacy Policy(Dutch).docx"; sourceTree = "<group>"; };
+		0498659B2456733A0050663F /* Dash Camera Interface Privacy Policy(German).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface Privacy Policy(German).docx"; sourceTree = "<group>"; };
+		0498659C2456733A0050663F /* Dash Camera Interface EULA(German).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(German).docx"; sourceTree = "<group>"; };
+		0498659E2456733A0050663F /* Dash Camera Interface EULA(French).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(French).docx"; sourceTree = "<group>"; };
+		0498659F2456733A0050663F /* Dash Camera Interface Privacy Policy(French).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface Privacy Policy(French).docx"; sourceTree = "<group>"; };
+		049865A12456733A0050663F /* Dash Camera Interface EULA(Spanish).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(Spanish).docx"; sourceTree = "<group>"; };
+		049865A22456733A0050663F /* Dash Camera Interface Privacy Policy(Spanish).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface Privacy Policy(Spanish).docx"; sourceTree = "<group>"; };
+		049865A42456733A0050663F /* Dash Camera Interface Privacy Policy(English).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface Privacy Policy(English).docx"; sourceTree = "<group>"; };
+		049865A52456733A0050663F /* Dash Camera Interface EULA(English).docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dash Camera Interface EULA(English).docx"; sourceTree = "<group>"; };
+		049866002456C9E30050663F /* html - iOS(DU).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(DU).pdf"; sourceTree = "<group>"; };
+		049866012456C9E30050663F /* html - iOS(SP).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(SP).pdf"; sourceTree = "<group>"; };
+		049866022456C9E30050663F /* html - iOS(FR).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(FR).pdf"; sourceTree = "<group>"; };
+		049866032456C9E30050663F /* html - iOS(IT).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(IT).pdf"; sourceTree = "<group>"; };
+		049866042456C9E30050663F /* html - iOS(RU).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(RU).pdf"; sourceTree = "<group>"; };
+		049866052456C9E30050663F /* html - iOS(POR).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(POR).pdf"; sourceTree = "<group>"; };
+		049866062456C9E30050663F /* html - iOS(GER).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS(GER).pdf"; sourceTree = "<group>"; };
+		049866072456C9E30050663F /* html - iOS（UK）.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "html - iOS（UK）.pdf"; sourceTree = "<group>"; };
 		049C8AFA1F6BB4E70024E703 /* APKDVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVR.h; sourceTree = "<group>"; };
 		049C8AFB1F6BB4E70024E703 /* APKDVR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVR.m; sourceTree = "<group>"; };
 		04A04BBD1F6A2AAB00612C37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -265,7 +309,7 @@
 		04407FA71F67CF6700BE177F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04407FA61F67CF6700BE177F /* Dash Camera Interface.app */,
+				04407FA61F67CF6700BE177F /* Interface.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,10 +332,7 @@
 				04407FAD1F67CF6700BE177F /* AppDelegate.m */,
 				04407FCE1F67D17400BE177F /* APKPrefixFile.pch */,
 				04407FB51F67CF6700BE177F /* Assets.xcassets */,
-				D62D632022C0B49000DDA034 /* license-jp_ios.pdf */,
-				04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */,
-				04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */,
-				D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */,
+				0498658F2456733A0050663F /* PEE_EULA */,
 				04407FBA1F67CF6700BE177F /* Info.plist */,
 				04407FAA1F67CF6700BE177F /* main.m */,
 				04C016B81F7F88E800018AF6 /* InfoPlist.strings */,
@@ -423,6 +464,111 @@
 			name = player;
 			sourceTree = "<group>";
 		};
+		0498658F2456733A0050663F /* PEE_EULA */ = {
+			isa = PBXGroup;
+			children = (
+				D62D632022C0B49000DDA034 /* license-jp_ios.pdf */,
+				04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */,
+				04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */,
+				D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */,
+				049865FF2456C9E30050663F /* userMethod */,
+				049865902456733A0050663F /* IT */,
+				049865912456733A0050663F /* RU */,
+				049865942456733A0050663F /* PT */,
+				049865972456733A0050663F /* NL */,
+				0498659A2456733A0050663F /* DE */,
+				0498659D2456733A0050663F /* FR */,
+				049865A02456733A0050663F /* ES */,
+				049865A32456733A0050663F /* EN */,
+			);
+			path = PEE_EULA;
+			sourceTree = "<group>";
+		};
+		049865902456733A0050663F /* IT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IT;
+			sourceTree = "<group>";
+		};
+		049865912456733A0050663F /* RU */ = {
+			isa = PBXGroup;
+			children = (
+				049865922456733A0050663F /* Dash Camera Interface EULA(Russian).docx */,
+				049865932456733A0050663F /* Dash Camera Intreface Privacy Policy(Russian).docx */,
+			);
+			path = RU;
+			sourceTree = "<group>";
+		};
+		049865942456733A0050663F /* PT */ = {
+			isa = PBXGroup;
+			children = (
+				049865952456733A0050663F /* Dash Camera Interface EULA(Portuguese).docx */,
+				049865962456733A0050663F /* Dash Camera Intreface Privacy Policy(Portuguese).docx */,
+			);
+			path = PT;
+			sourceTree = "<group>";
+		};
+		049865972456733A0050663F /* NL */ = {
+			isa = PBXGroup;
+			children = (
+				049865982456733A0050663F /* Dash Camera Interface EULA(Dutch).docx */,
+				049865992456733A0050663F /* Dash Camera Interface Privacy Policy(Dutch).docx */,
+			);
+			path = NL;
+			sourceTree = "<group>";
+		};
+		0498659A2456733A0050663F /* DE */ = {
+			isa = PBXGroup;
+			children = (
+				0498659B2456733A0050663F /* Dash Camera Interface Privacy Policy(German).docx */,
+				0498659C2456733A0050663F /* Dash Camera Interface EULA(German).docx */,
+			);
+			path = DE;
+			sourceTree = "<group>";
+		};
+		0498659D2456733A0050663F /* FR */ = {
+			isa = PBXGroup;
+			children = (
+				0498659E2456733A0050663F /* Dash Camera Interface EULA(French).docx */,
+				0498659F2456733A0050663F /* Dash Camera Interface Privacy Policy(French).docx */,
+			);
+			path = FR;
+			sourceTree = "<group>";
+		};
+		049865A02456733A0050663F /* ES */ = {
+			isa = PBXGroup;
+			children = (
+				049865A12456733A0050663F /* Dash Camera Interface EULA(Spanish).docx */,
+				049865A22456733A0050663F /* Dash Camera Interface Privacy Policy(Spanish).docx */,
+			);
+			path = ES;
+			sourceTree = "<group>";
+		};
+		049865A32456733A0050663F /* EN */ = {
+			isa = PBXGroup;
+			children = (
+				049865A42456733A0050663F /* Dash Camera Interface Privacy Policy(English).docx */,
+				049865A52456733A0050663F /* Dash Camera Interface EULA(English).docx */,
+			);
+			path = EN;
+			sourceTree = "<group>";
+		};
+		049865FF2456C9E30050663F /* userMethod */ = {
+			isa = PBXGroup;
+			children = (
+				049866002456C9E30050663F /* html - iOS(DU).pdf */,
+				049866012456C9E30050663F /* html - iOS(SP).pdf */,
+				049866022456C9E30050663F /* html - iOS(FR).pdf */,
+				049866032456C9E30050663F /* html - iOS(IT).pdf */,
+				049866042456C9E30050663F /* html - iOS(RU).pdf */,
+				049866052456C9E30050663F /* html - iOS(POR).pdf */,
+				049866062456C9E30050663F /* html - iOS(GER).pdf */,
+				049866072456C9E30050663F /* html - iOS（UK）.pdf */,
+			);
+			path = userMethod;
+			sourceTree = "<group>";
+		};
 		049C8AF91F6BB4AD0024E703 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
@@ -525,7 +671,7 @@
 			);
 			name = Pioneer;
 			productName = Pioneer;
-			productReference = 04407FA61F67CF6700BE177F /* Dash Camera Interface.app */;
+			productReference = 04407FA61F67CF6700BE177F /* Interface.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -579,20 +725,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0498660F2456C9E30050663F /* html - iOS（UK）.pdf in Resources */,
 				04407FDC1F67D37A00BE177F /* APKTabBarCell.xib in Resources */,
 				04C016B61F7F88E800018AF6 /* InfoPlist.strings in Resources */,
+				049866082456C9E30050663F /* html - iOS(DU).pdf in Resources */,
 				04FD6C57244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf in Resources */,
 				049120081F6934F100FD6121 /* Localizable.strings in Resources */,
+				049865B32456733A0050663F /* Dash Camera Interface EULA(English).docx in Resources */,
+				0498660D2456C9E30050663F /* html - iOS(POR).pdf in Resources */,
+				049865AF2456733A0050663F /* Dash Camera Interface Privacy Policy(French).docx in Resources */,
 				049120041F69334C00FD6121 /* Main.storyboard in Resources */,
+				0498660A2456C9E30050663F /* html - iOS(FR).pdf in Resources */,
+				049865A92456733A0050663F /* Dash Camera Intreface Privacy Policy(Portuguese).docx in Resources */,
 				D602DB5E22BB22DE00E92437 /* APKPromiseView.xib in Resources */,
 				D62D632122C0B49000DDA034 /* license-jp_ios.pdf in Resources */,
+				049865AE2456733A0050663F /* Dash Camera Interface EULA(French).docx in Resources */,
 				04FD6C59244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf in Resources */,
+				049865AB2456733A0050663F /* Dash Camera Interface Privacy Policy(Dutch).docx in Resources */,
 				D67F6EAF2424B5090082A228 /* Launch Screen.storyboard in Resources */,
+				0498660E2456C9E30050663F /* html - iOS(GER).pdf in Resources */,
+				049865AD2456733A0050663F /* Dash Camera Interface EULA(German).docx in Resources */,
 				04407FB61F67CF6700BE177F /* Assets.xcassets in Resources */,
+				049866092456C9E30050663F /* html - iOS(SP).pdf in Resources */,
 				04AD3AF01F79EE0A00B27E41 /* APKDownloadInfoView.xib in Resources */,
+				049865AA2456733A0050663F /* Dash Camera Interface EULA(Dutch).docx in Resources */,
+				0498660B2456C9E30050663F /* html - iOS(IT).pdf in Resources */,
+				049865B12456733A0050663F /* Dash Camera Interface Privacy Policy(Spanish).docx in Resources */,
 				04407FE51F67DE8A00BE177F /* APKFlodersView.xib in Resources */,
+				049865A72456733A0050663F /* Dash Camera Intreface Privacy Policy(Russian).docx in Resources */,
+				0498660C2456C9E30050663F /* html - iOS(RU).pdf in Resources */,
+				049865B02456733A0050663F /* Dash Camera Interface EULA(Spanish).docx in Resources */,
+				049865B22456733A0050663F /* Dash Camera Interface Privacy Policy(English).docx in Resources */,
+				049865A82456733A0050663F /* Dash Camera Interface EULA(Portuguese).docx in Resources */,
+				049865AC2456733A0050663F /* Dash Camera Interface Privacy Policy(German).docx in Resources */,
 				04407FD71F67D31200BE177F /* APKTabBar.xib in Resources */,
 				D64F8EF922CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx in Resources */,
+				049865A62456733A0050663F /* Dash Camera Interface EULA(Russian).docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +1020,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 7JA3J4SM22;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -863,6 +1032,7 @@
 				INFOPLIST_FILE = Pioneer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -903,7 +1073,7 @@
 					"\"UMMobClick\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apical.pioneer;
-				PRODUCT_NAME = "Dash Camera Interface";
+				PRODUCT_NAME = Interface;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -917,6 +1087,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 7JA3J4SM22;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -928,6 +1099,7 @@
 				INFOPLIST_FILE = Pioneer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -968,7 +1140,7 @@
 					"\"UMMobClick\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apical.pioneer;
-				PRODUCT_NAME = "Dash Camera Interface";
+				PRODUCT_NAME = Interface;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

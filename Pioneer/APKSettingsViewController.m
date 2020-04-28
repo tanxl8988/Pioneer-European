@@ -66,6 +66,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    APKDVR *dvr = [APKDVR sharedInstance];
+    dvr.appIsInSettingVC = YES;
+    
     APKTabBarController *tabBar = (APKTabBarController *)self.tabBarController;
     self.bottomConstraint.constant = tabBar.tabBarHeight;
     
@@ -146,8 +149,8 @@
     {
         self.content.wifiPasswordInfoLabel.text = NSLocalizedString(@"初始值：88888888", nil);
         self.content.wifiNameInfoLabel.text = NSLocalizedString(@"初始值：Pioneer_DVR", nil);
-        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
-        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+//        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+//        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
     }
 }
 
@@ -431,8 +434,8 @@
         self.content.wifiPasswordInfoLabel.text = NSLocalizedString(@"初始值：88888888", nil);
         self.content.wifiNameInfoLabel.text = NSLocalizedString(@"初始值：Pioneer_DVR", nil);
         self.content.firmwareVersionInfoLabel.text = @"--";
-        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
-        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+//        self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
+//        self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 275, 12,240 , 40);
     });
 }
 
@@ -462,8 +465,8 @@
             
             weakSelf.content.wifiNameInfoLabel.text = weakSelf.wifiInfo.account;
             weakSelf.content.wifiPasswordInfoLabel.text = weakSelf.wifiInfo.password;
-            self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
-            self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
+//            self.content.wifiNameInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
+//            self.content.wifiPasswordInfoLabel.frame = CGRectMake(self.view.bounds.size.width - 126, 12,90 , 40);
 //            [[NSUserDefaults standardUserDefaults] setObject:weakSelf.wifiInfo.password forKey:KWifiPassword];
 //            [[NSUserDefaults standardUserDefaults] synchronize];
             
@@ -526,13 +529,17 @@
         __weak APKPromiseView *view = [[NSBundle mainBundle] loadNibNamed:@"APKPromiseView" owner:nil options:nil].firstObject;
         view.center = self.view.center;
         view.setSureButton.hidden = NO;
-        view.frame = CGRectMake(40, 40, CGRectGetWidth(self.maskView.frame)-80, CGRectGetHeight(self.maskView.frame)-50);
+        view.isEULA = YES;
+        view.frame = CGRectMake(20, 30, CGRectGetWidth(self.maskView.frame)-40, CGRectGetHeight(self.maskView.frame)-60);
+        [view setUpWebView];
         view.clickActionButton = ^(NSInteger tag) {
             
             [self.maskView removeFromSuperview];
             [view removeFromSuperview];
         };
         UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
+        view.wkWebView.frame = CGRectMake(-15, 0, self.view.bounds.size.width, CGRectGetHeight(self.maskView.frame)-103);
+
         [keyWindow addSubview:self.maskView];
         [keyWindow addSubview:view];
     }

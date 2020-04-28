@@ -7,6 +7,7 @@
 //
 
 #import "APKPromiseView.h"
+#import "APKDVR.h"
 
 @implementation APKPromiseView
 /*
@@ -25,37 +26,53 @@
     [self.sureButton setTitle:NSLocalizedString(@"同意", nil) forState:UIControlStateNormal];
     [self.setSureButton setTitle:NSLocalizedString(@"同意", nil) forState:UIControlStateNormal];
     [self setButtonsEnable:NO];
-    
-    //初始化myWebView
-    NSURL *filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"使用許諾書_Drive_Record_Interface_正式版 2" ofType:@"docx"]];
-    NSURLRequest *request = [NSURLRequest requestWithURL: filePath];
-    [self.webView loadRequest:request];
-    //使文档的显示范围适合UIWebView的bounds
-    [self.webView setScalesPageToFit:YES];
-    self.webView.delegate = self;
-    self.webView.scrollView.delegate = self;
-    
-    
-//    NSString*jSString = [NSString stringWithFormat:@"var meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content','width=device-width','user-scalable=no'); document.getElementsByTagName('head')[0].appendChild(meta);"];
-//    WKUserScript *wkUserScript = [[WKUserScript alloc] initWithSource:jSString injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
-//    WKUserContentController* userContent = [[WKUserContentController alloc]init];
-//    [userContent addUserScript:wkUserScript];
-//    WKWebViewConfiguration *wkWebConfig = [[WKWebViewConfiguration alloc] init];
-//
-//    wkWebConfig.userContentController= userContent;
-//    self.wkWebView = [[WKWebView alloc] initWithFrame:self.webView.bounds configuration:wkWebConfig];
-//    NSURL *filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"使用許諾書_Drive_Record_Interface_正式版 2" ofType:@"docx"]];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:filePath];
-//    [self.wkWebView loadRequest:request];
-//    self.wkWebView.frame = self.webView.frame;
-//    self.wkWebView.center = self.center;
-//    self.wkWebView.scrollView.delegate = self;
-//    [self.wkWebView sizeToFit];
-//    [self addSubview:self.wkWebView];
 }
 
-- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
-    NSLog(@"页面加载完成");
+-(void)setUpWebView
+{
+    //初始化myWebView
+    NSURL *filePath = [NSURL new];
+    NSString *lan = [self getLanguageStr];
+    APKDVR *dvr = [APKDVR sharedInstance];
+    if ([lan containsString:@"en"]) {
+
+        filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(English)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(English)" ofType:@"docx"]];
+    }else if ([lan containsString:@"fr"]){
+              filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(French)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(French)" ofType:@"docx"]];
+    }else if ([lan containsString:@"de"]){
+              filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(German)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(German)" ofType:@"docx"]];
+    }else if ([lan containsString:@"ru"]){
+              filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Russian)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Intreface Privacy Policy(Russian)" ofType:@"docx"]];
+    }else if ([lan containsString:@"it"]){
+            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(English)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(English)" ofType:@"docx"]];
+    }else if ([lan containsString:@"es"]){
+            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Spanish)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(Spanish)" ofType:@"docx"]];
+    }else if ([lan containsString:@"nl"]){
+            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Dutch)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(Dutch)" ofType:@"docx"]];
+    }else if ([lan containsString:@"pl"]){
+            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(English)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(English)" ofType:@"docx"]];
+    }else if([lan containsString:@"pt"]){
+              filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Portuguese)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Intreface Privacy Policy(Portuguese)" ofType:@"docx"]];
+    }else if([lan containsString:@"CN"]){
+        
+             filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(English)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(English)" ofType:@"docx"]];
+    }
+
+    self.wkWebView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height - 200)];
+    NSURLRequest *request = [NSURLRequest requestWithURL:filePath];
+    [self.wkWebView loadRequest:request];
+    self.wkWebView.center = self.center;
+    self.wkWebView.scrollView.delegate = self;
+    [self.wkWebView sizeToFit];
+    [self addSubview:self.wkWebView];
+}
+
+-(NSString *) getLanguageStr
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSArray *languages = [defaults objectForKey:@"AppleLanguages"];
+    NSString *currentLanguage = [[NSString alloc] initWithString:[languages objectAtIndex:0]];
+    return  currentLanguage;
 }
 
 -(void)setButtonsEnable:(BOOL)enable

@@ -7,18 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuickLook/QuickLook.h>
 #import <WebKit/WebKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface APKPromiseView : UIView<UIScrollViewDelegate,UIWebViewDelegate,QLPreviewControllerDataSource,WKNavigationDelegate>
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+@interface APKPromiseView : UIView<UIScrollViewDelegate,WKNavigationDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *refuseButton;
 @property (weak, nonatomic) IBOutlet UIButton *sureButton;
 @property (nonatomic,copy) void(^clickActionButton)(NSInteger tag);
 @property (weak, nonatomic) IBOutlet UIButton *setSureButton;
 @property (nonatomic,retain) WKWebView *wkWebView;
+@property (nonatomic,assign) BOOL isEULA;
+
+-(void)setUpWebView;
 @end
 
 NS_ASSUME_NONNULL_END

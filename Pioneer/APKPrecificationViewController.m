@@ -7,10 +7,12 @@
 //
 
 #import "APKPrecificationViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface APKPrecificationViewController ()
 
 @property (nonatomic,retain) UIScrollView *scrollView;
+@property (nonatomic,retain) WKWebView *webView;
 @end
 
 @implementation APKPrecificationViewController
@@ -21,10 +23,49 @@
 //    self.view.backgroundColor = [UIColor grayColor];
     self.title = NSLocalizedString(@"说明书", nil);
     [self setNavigationLeftBar];
-    [self.view addSubview:self.scrollView];
+    
+    //初始化myWebView
+    NSURL *filePath = [NSURL new];
+    NSString *lan = [self getLanguageStr];
+    if ([lan containsString:@"en"]) {
+
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
+    }else if ([lan containsString:@"fr"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(FR)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"de"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(GER)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"ru"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(RU)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"it"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(IT)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"es"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(SP)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"nl"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(DU)" ofType:@"pdf"]];
+    }else if ([lan containsString:@"pl"]){
+           filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
+    }else if([lan containsString:@"pt"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(POR)" ofType:@"pdf"]];
+    }else if([lan containsString:@"CN"]){
+          filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
+    }
+    NSURLRequest *request = [NSURLRequest requestWithURL: filePath];
+    [self.webView loadRequest:request];
+    [self.view addSubview:self.webView];
+//    [self.view addSubview:self.scrollView];
     
     // Do any additional setup after loading the view.
 }
+
+
+-(NSString *) getLanguageStr
+{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSArray *languages = [defaults objectForKey:@"AppleLanguages"];
+    NSString *currentLanguage = [[NSString alloc] initWithString:[languages objectAtIndex:0]];
+    return  currentLanguage;
+}
+
 #pragma mark - 设置返回按钮
 - (void)setNavigationLeftBar
 {
@@ -41,6 +82,14 @@
     [self dismissViewControllerAnimated:NO completion:^{
         nil;
     }];
+}
+
+-(WKWebView *)webView
+{
+    if (!_webView) {
+        _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    }
+    return _webView;
 }
 
 -(UIScrollView*)scrollView

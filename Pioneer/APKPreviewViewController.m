@@ -344,8 +344,11 @@
         APKPromiseView *view = [[NSBundle mainBundle] loadNibNamed:@"APKPromiseView" owner:nil options:nil].firstObject;
         view.center = self.view.center;
         view.frame = CGRectMake(16, 40, CGRectGetWidth(self.backgroundView.frame)-32, CGRectGetHeight(self.backgroundView.frame)-50);
+        [view setUpWebView];
+        view.wkWebView.frame = CGRectMake(-15,0, self.view.bounds.size.width, CGRectGetHeight(self.backgroundView.frame)-93);
         view.refuseButton.hidden = NO;
         view.sureButton.hidden = NO;
+        view.isEULA = NO;
         view.clickActionButton = ^(NSInteger tag) {
             
             if (tag == 100) {

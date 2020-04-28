@@ -7,6 +7,7 @@
 //
 
 #import "openSourceViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface openSourceViewController ()
 
@@ -20,7 +21,7 @@
     self.title = NSLocalizedString(@"开放源代码许可", nil);
     
     //初始化myWebView
-    UIWebView *myWebView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    WKWebView *myWebView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     NSURL *filePath = [NSURL new];
     if ([self isFranchLanguage])
         filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅" ofType:@"pdf"]];
@@ -29,8 +30,6 @@
 
     NSURLRequest *request = [NSURLRequest requestWithURL: filePath];
     [myWebView loadRequest:request];
-    //使文档的显示范围适合UIWebView的bounds
-    [myWebView setScalesPageToFit:YES];
     [self.view addSubview:myWebView];
     // Do any additional setup after loading the view.
 }
