@@ -6,4 +6,4 @@
   Copyright © 2017年 APK. All rights reserved.
 */
 NSPhotoLibraryUsageDescription = "Fotodaten werden auf \"Fotos\" heruntergeladen. Auf Fotos zugreifen? ";
-"CFBundleDisplayName" = "Interface";
+"CFBundleDisplayName" = "DashInterface";

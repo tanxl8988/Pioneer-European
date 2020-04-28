@@ -38,6 +38,8 @@
 "WiFi密码"="Password";
 "格式化SD卡"="Format SD card";
 "格式化SD卡详情"="All Data will be Deleted.Format the SD card?";
+"格式化成功提示" = "次回起動後、SSIDとパスワードは出荷状態に戻ります。";//格式化已删掉
+
 "恢复出厂设置"="Restore to Factory Mode";
 "恢复出厂设置详情"="Restore to Factory Default Mode (Yes/No)";
 "软件信息"="Version";
@@ -59,7 +61,7 @@
 //其他
 "Done"="✕";
 "确定"="Yes";
-"取消"="No";
+"取消"="Cancel";
 "文件码流过大，请下载到本地播放" = "Please download the data to smartphone before playing the video";
 "修改WiFi成功提示" = "Restart the drive recorder";
 

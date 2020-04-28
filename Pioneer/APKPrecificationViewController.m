@@ -43,16 +43,18 @@
     }else if ([lan containsString:@"nl"]){
         filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(DU)" ofType:@"pdf"]];
     }else if ([lan containsString:@"pl"]){
-           filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
     }else if([lan containsString:@"pt"]){
         filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS(POR)" ofType:@"pdf"]];
-    }else if([lan containsString:@"CN"]){
-          filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
+    }else if([lan containsString:@"ja"]){
+        [self.view addSubview:self.scrollView];
+        return;
+    }else if([lan containsString:@"zh-Hans"]){
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"html - iOS（UK）" ofType:@"pdf"]];
     }
     NSURLRequest *request = [NSURLRequest requestWithURL: filePath];
     [self.webView loadRequest:request];
     [self.view addSubview:self.webView];
-//    [self.view addSubview:self.scrollView];
     
     // Do any additional setup after loading the view.
 }

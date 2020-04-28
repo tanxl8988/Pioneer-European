@@ -6,4 +6,4 @@
   Copyright © 2017年 APK. All rights reserved.
 */
 NSPhotoLibraryUsageDescription = "«Фотографии» загружаются в «Фото».Доступ к фотографиям?";
-"CFBundleDisplayName" = "Interface";
+"CFBundleDisplayName" = "DashInterface";

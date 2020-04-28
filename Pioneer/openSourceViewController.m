@@ -23,8 +23,11 @@
     //初始化myWebView
     WKWebView *myWebView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     NSURL *filePath = [NSURL new];
-    if ([self isFranchLanguage])
+    NSString *lan = [self getLanguage];
+    if ([lan containsString:@"fr"])
         filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅" ofType:@"pdf"]];
+    else if([lan containsString:@"ja"])
+        filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"license-jp_ios" ofType:@"pdf"]];
     else
         filePath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜" ofType:@"pdf"]];
 
@@ -34,15 +37,13 @@
     // Do any additional setup after loading the view.
 }
 
--(BOOL) isFranchLanguage
+-(NSString *) getLanguage
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSArray *languages = [defaults objectForKey:@"AppleLanguages"];
     NSString *currentLanguage = [[NSString alloc] initWithString:[languages objectAtIndex:0]];
-    if ([currentLanguage containsString:@"fr"])
-        return YES;
-    else
-        return NO;
+    
+    return currentLanguage;;
 }
 
 - (IBAction)backButtonClick:(UIButton *)sender {

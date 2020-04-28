@@ -59,7 +59,7 @@
 //其他
 "Done"="✕";
 "确定"="Ja";
-"取消"="Nein";
+"取消"="Zurück";
 "文件码流过大，请下载到本地播放" = "Bitte vor der Wiedergabe des Videos Daten auf das Smartphone herunterladen.";
 "修改WiFi成功提示" = "Starten Sie den Drive Recorder neu";
 
