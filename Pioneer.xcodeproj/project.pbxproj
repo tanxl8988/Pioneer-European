@@ -83,6 +83,7 @@
 		04C06DE51F6F74F50072D064 /* APKDVRCommandResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */; };
 		04C1C2811F74BBDD0006B9C8 /* APKGetDVRFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */; };
 		04EB768F24343B940016A261 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */; };
+		04F23D4F24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx in Resources */ = {isa = PBXBuildFile; fileRef = 04F23D4E24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx */; };
 		04FD6C55244EAB02009E0B61 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */; };
 		04FD6C57244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */; };
 		04FD6C59244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */; };
@@ -238,6 +239,7 @@
 		04C1C27F1F74BBDD0006B9C8 /* APKGetDVRFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRFiles.h; sourceTree = "<group>"; };
 		04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRFiles.m; sourceTree = "<group>"; };
 		04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		04F23D4E24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx"; sourceTree = "<group>"; };
 		04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
 		04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf"; sourceTree = "<group>"; };
 		04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf"; sourceTree = "<group>"; };
@@ -470,6 +472,7 @@
 				D62D632022C0B49000DDA034 /* license-jp_ios.pdf */,
 				04FD6C58244EC405009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=僼儔儞僗岅.pdf */,
 				04FD6C56244EC3F5009E0B61 /* 200311 OSS儔僀僙儞僗暥亜[KX085,KX086]iOS傾僾儕 (僀儞僞乕僼僃乕僗) 亜愝掕尵岅=擔杮岅丄僼儔儞僗岅埲奜.pdf */,
+				04F23D4E24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx */,
 				D64F8EF822CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx */,
 				049865FF2456C9E30050663F /* userMethod */,
 				049865902456733A0050663F /* IT */,
@@ -761,6 +764,7 @@
 				04407FD71F67D31200BE177F /* APKTabBar.xib in Resources */,
 				D64F8EF922CC45BE00A0490C /* 使用許諾書_Drive_Record_Interface_正式版 2.docx in Resources */,
 				049865A62456733A0050663F /* Dash Camera Interface EULA(Russian).docx in Resources */,
+				04F23D4F24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
