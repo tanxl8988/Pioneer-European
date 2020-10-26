@@ -44,7 +44,7 @@
     }else if ([lan containsString:@"ru"]){
               filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Russian)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Intreface Privacy Policy(Russian)" ofType:@"docx"]];
     }else if ([lan containsString:@"it"]){
-            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(English)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(English)" ofType:@"docx"]];
+            filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Italian)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy (Italian)" ofType:@"docx"]];
     }else if ([lan containsString:@"es"]){
             filePath = dvr.appIsInSettingVC ? [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface EULA(Spanish)" ofType:@"docx"]] : [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Dash Camera Interface Privacy Policy(Spanish)" ofType:@"docx"]];
     }else if ([lan containsString:@"nl"]){
