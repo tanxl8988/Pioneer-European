@@ -547,8 +547,8 @@
         CGFloat height = width / 16.f * 9.f;
         CGFloat Y = CGRectGetMaxY(self.headerView.frame)+26;
         
-        NSString *iphone = [self iphoneType];
-        if ([iphone isEqualToString:@"iPhone X"] || [iphone isEqualToString:@"iPhone XR"] || [iphone isEqualToString:@"iPhone XS"] || [iphone isEqualToString:@"iPhone XS Max"] || [iphone isEqualToString:@"iPhone 11"] || [iphone isEqualToString:@"iPhone 11 Pro"] || [iphone isEqualToString:@"iPhone 11 Pro Max"]) {
+        NSString *iphone = [self getIphoneType];
+        if ([iphone isEqualToString:@"iPhone X"] || [iphone isEqualToString:@"iPhone XR"] || [iphone isEqualToString:@"iPhone XS"] || [iphone isEqualToString:@"iPhone XS Max"] || [iphone isEqualToString:@"iPhone 11"] || [iphone isEqualToString:@"iPhone 11 Pro"] || [iphone isEqualToString:@"iPhone 11 Pro Max"] || [iphone isEqualToString:@"iPhone 12 mini"] || [iphone isEqualToString:@"iPhone 12"] || [iphone isEqualToString:@"iPhone 12 Pro"] || [iphone isEqualToString:@"iPhone 12 Pro Max"]) {
             Y = CGRectGetMaxY(self.headerView.frame) + 50;
         }
         
@@ -557,7 +557,7 @@
     return _liveViewFrame;
 }
 
-- (NSString*)iphoneType {
+- (NSString*)getIphoneType {
     
     struct utsname systemInfo;
     uname(&systemInfo);
@@ -571,7 +571,12 @@
     if([platform isEqualToString:@"iPhone12,1"]) return @"iPhone 11";
     if([platform isEqualToString:@"iPhone12,3"]) return @"iPhone 11 Pro";
     if([platform isEqualToString:@"iPhone12,5"]) return @"iPhone 11 Pro Max";
-
+    
+    if([platform isEqualToString:@"iPhone13,1"]) return @"iPhone 12 mini";
+    if([platform isEqualToString:@"iPhone13,2"]) return @"iPhone 12";
+    if([platform isEqualToString:@"iPhone13,3"]) return @"iPhone 12 Pro";
+    if([platform isEqualToString:@"iPhone13,4"]) return @"iPhone 12 Pro Max";
+    
     return platform;
 }
 
