@@ -63,9 +63,9 @@ static NSString *cellIdentifier = @"fileCell";
     [self reuqestLocalFileList];
     
     NSString *isDark = [[NSUserDefaults standardUserDefaults] objectForKey:@"DARKMODE"];
-         if ([isDark isEqualToString:@"YES"]) {
-             self.view.backgroundColor = [UIColor blackColor];
-         }
+    if ([isDark isEqualToString:@"YES"]) {
+        self.view.backgroundColor = [UIColor blackColor];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated{

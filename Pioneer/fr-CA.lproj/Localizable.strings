@@ -1,0 +1,76 @@
+/*
+ Localizable.strings
+ Pioneer
+ 
+ Created by Mac on 17/9/13.
+ Copyright © 2017年 APK. All rights reserved.
+ */
+
+//预览界面
+"摄像机"="Caméra";
+"连接"="接続";
+"正在录制事件..." = "Pendant l'enregistrement de l'évènement";
+"拍摄事件失败"="L'enregistrement de l'événement a échoué";
+"拍摄照片失败" = "La capture photo a échoué";
+
+
+//文件列表
+"本地文件"="Données internes";
+"摄像机文件"="Données de la carte SD";
+"视频"="Vidéo";
+"事件"="Événement";
+"泊车"="Stationnment";
+"照片"="Photo";
+"删除%d个文件？"="supprimer des fichiers?";
+"手机存储空间不足"="Limite de la mémoire smartphone atteinte";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="\"Donnée photo\"sera téléchargée vers \"Photo\".
+Accèder à photo?";
+"下载" = "Télécharger";
+"已下载" = "Téléchargement terminé";
+
+//设置
+"录制时长"="Durée séquence vidéo";
+"1分钟"="1 min.";
+"3分钟"="3 min.";
+"5分钟"="5 min.";
+"视频格式"="Résolution vidéo";
+"时间同步"="Heure GPS";
+"WiFi名称"="SSID";
+"WiFi密码"="Mot de passe";
+"格式化SD卡"="Formater la carte SD";
+"格式化SD卡详情"="Toutes les données seront supprimées.
+Formater la carte SD";
+"恢复出厂设置"="Reinitialiser";
+"恢复出厂设置详情"="Réinitialiser (Oui / Non)";
+"软件信息"="Version";
+"格式化SD卡成功"="Carte SD formatée";
+"格式化SD卡失败"="Setting failed";
+"恢复出厂设置成功提示" = "Please reconnect the drive recorder.";
+"恢复出厂设置成功"="Setting restores to factory Mode";
+"恢复出厂设置失败"="Échec de configuration";
+"设置成功"="Téléchargement terminé";
+"设置失败"="Échec de configuration";
+"请输入1-11位Wi-Fi名称："="Veuillez saisir jusqu'à 11 caractères alphanumériques du SSID:";
+"请输入8位Wi-Fi密码："="Veuillez saisir 8 caractères alphanumériques";
+"说明书"="Comment utiliser";
+"请连接WiFi"="Connectez le Wi-fi";
+"初始值：88888888"="Mot de passe initial:88888888";
+"初始值：Pioneer_DVR"="SSID initial:Pioneer_DVR";
+"未连接"="Non connecté";
+
+//其他
+"Done"="✕";
+"确定"="Oui";
+"取消"="Annuler";
+"文件码流过大，请下载到本地播放" = "La résolution est de 1080p ou 1080p HDR, télécharger les données sur le smartphone avant de lire la vidéo.";
+
+"版本号" = "Version App";
+"不同意" = "Je refuse";
+"同意" = "J'accepte";
+"开放源代码许可" = "Information";
+"重新连接" = "Veuillez reconnecter la caméra";
+"紧急录像中，请稍后再试" = "Pendant l'enregistrement de l'évènement";
+"紧急录像中，无法设置" = "Pendant l'enregistrement de l'évènement";
+"两台同时连接提示" = "Un autre appareil s'est connecté à la caméra. Déconnectez-vous de cet appareil.";
+
+"执行下载将停止录像" = "L'enregistrement sera suspendu pendant le téléchargement du fichier. Êtes-vous certains?";

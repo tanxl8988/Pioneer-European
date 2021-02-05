@@ -242,6 +242,12 @@
 		04C06DE41F6F74F50072D064 /* APKDVRCommandResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommandResultHandler.m; sourceTree = "<group>"; };
 		04C1C27F1F74BBDD0006B9C8 /* APKGetDVRFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRFiles.h; sourceTree = "<group>"; };
 		04C1C2801F74BBDD0006B9C8 /* APKGetDVRFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRFiles.m; sourceTree = "<group>"; };
+		04DFD9D525CA7691009AEE16 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Main.strings"; sourceTree = "<group>"; };
+		04DFD9D625CA7691009AEE16 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04DFD9D725CA7691009AEE16 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04DFD9D825CA9C4B009AEE16 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		04DFD9D925CA9C4B009AEE16 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		04DFD9DA25CA9C4B009AEE16 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		04EB768C2434321C0016A261 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		04F23D4E24582613002C2E57 /* 【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "【修正履歴なし】20200414(ja)_「ドライブレコーダーインターフェース」アプリ利用規約ver2.docx"; sourceTree = "<group>"; };
 		04FD6C54244EAB02009E0B61 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
@@ -726,6 +732,8 @@
 				"pt-BR",
 				pl,
 				"pt-PT",
+				"fr-CA",
+				"en-GB",
 			);
 			mainGroup = 04407F9D1F67CF6700BE177F;
 			productRefGroup = 04407FA71F67CF6700BE177F /* Products */;
@@ -897,6 +905,8 @@
 				0420B18C2436D1A300502510 /* pt-BR */,
 				0420B18F2436D6DE00502510 /* pl */,
 				0420B192243718AC00502510 /* pt-PT */,
+				04DFD9D525CA7691009AEE16 /* fr-CA */,
+				04DFD9D825CA9C4B009AEE16 /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -916,6 +926,8 @@
 				0420B18E2436D1A300502510 /* pt-BR */,
 				0420B1912436D6DE00502510 /* pl */,
 				0420B194243718AC00502510 /* pt-PT */,
+				04DFD9D725CA7691009AEE16 /* fr-CA */,
+				04DFD9DA25CA9C4B009AEE16 /* en-GB */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -935,6 +947,8 @@
 				0420B18D2436D1A300502510 /* pt-BR */,
 				0420B1902436D6DE00502510 /* pl */,
 				0420B193243718AC00502510 /* pt-PT */,
+				04DFD9D625CA7691009AEE16 /* fr-CA */,
+				04DFD9D925CA9C4B009AEE16 /* en-GB */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1048,7 +1062,7 @@
 					"$(PROJECT_DIR)/Pioneer/VLCKit",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer-European /Pioneer/APKPrefixFile.pch";
 				INFOPLIST_FILE = Pioneer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1115,7 +1129,7 @@
 					"$(PROJECT_DIR)/Pioneer/VLCKit",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer New European/Pioneer/APKPrefixFile.pch";
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/Pioneer-European /Pioneer/APKPrefixFile.pch";
 				INFOPLIST_FILE = Pioneer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -9,7 +9,7 @@
 //预览界面
 "摄像机"="Camera";
 "连接"="接続";
-"正在录制事件..." = "Event Recording";
+"正在录制事件..." = "During event recording";
 "拍摄事件失败"="Event Recording Has Failed";
 "拍摄照片失败" = "Photo Capture Has Failed";
 
@@ -23,8 +23,7 @@
 "照片"="Photo";
 "删除%d个文件？"="Delete file?";
 "手机存储空间不足"="Mobile storage limit reached";
-"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="\"Photo data\" is downloaded to \" Photos \".
-Access photos? ";
+"将所记录数据下载到“照片“，请允许访问iPhone的”照片”"="Photo data is downloaded to \" Photos \".Access photos? ";
 "下载" = "Download";
 "已下载" = "Download completed";
 
@@ -38,8 +37,7 @@ Access photos? ";
 "WiFi名称"="SSID";
 "WiFi密码"="Password";
 "格式化SD卡"="Format SD card";
-"格式化SD卡详情"="All data will be deleted.
-Are you sure to format the SD card";
+"格式化SD卡详情"="All Data will be Deleted.Format the SD card?";
 "格式化成功提示" = "次回起動後、SSIDとパスワードは出荷状態に戻ります。";//格式化已删掉
 
 "恢复出厂设置"="Restore to Factory Mode";
@@ -72,8 +70,8 @@ Are you sure to format the SD card";
 "同意" = "Agree";
 "开放源代码许可" = "Information";
 "重新连接" = "Please reconnect the drive recorder.";
-"紧急录像中，请稍后再试" = "Event Recording";
-"紧急录像中，无法设置" = "Event Recording";
+"紧急录像中，请稍后再试" = "During event recording";
+"紧急录像中，无法设置" = "During event recording";
 "两台同时连接提示" = "Another device has connected to the drive recorder. Disconnect from this device.";
 
 "执行下载将停止录像" = "The recording will be stopped during the file download. Are you sure?";

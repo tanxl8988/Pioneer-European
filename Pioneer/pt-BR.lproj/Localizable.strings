@@ -41,6 +41,7 @@
 Formatar o cartão SD? ";
 "恢复出厂设置"="Restaurar para as definições de fábrica";
 "恢复出厂设置详情"="Restaurar para as definições de fábrica (Sim / Não)?";
+"恢复出厂设置成功提示" = "Por favor ligue novamente à unidade de gravação.";
 "软件信息"="Versão";
 "格式化SD卡成功"="Cartão SD formatado";
 "格式化SD卡失败"="Definições falharam";

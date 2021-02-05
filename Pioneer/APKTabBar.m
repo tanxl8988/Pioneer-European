@@ -72,9 +72,9 @@ static NSString *cellIdentifier = @"tabBarCell";
     APKTabBarItem *item = self.dataSource[indexPath.row];
     cell.imagev.image = [UIImage imageNamed:item.imageName];
     NSString *isDark = [[NSUserDefaults standardUserDefaults] objectForKey:@"DARKMODE"];
-        if ([isDark isEqualToString:@"YES"]) {
-            cell.backgroundColor = [UIColor blackColor];
-        }
+    if ([isDark isEqualToString:@"YES"]) {
+        cell.backgroundColor = [UIColor blackColor];
+    }
     cell.imagev.highlightedImage = [UIImage imageNamed:item.imageName_p];
     return cell;
 }

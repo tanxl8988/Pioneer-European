@@ -253,6 +253,7 @@ static APKDVR *instance = nil;
             }]execute];
             
         } failure:^(int rval) {
+            NSLog(@"");
         }]execute];
        
 //        if (!success || success)

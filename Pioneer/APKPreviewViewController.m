@@ -363,6 +363,7 @@
         tabBar.customTabBar.hidden = NO;
 }
 
+
 #pragma mark - event response
 
 - (void)clickQuitFullScreenButton:(UIButton *)sender{
